@@ -1,5 +1,33 @@
 [
   {
+    "name": "Warehouse Pick Lists",
+    "repo": "pixeltable-warehouse-picklists",
+    "url": "https://github.com/pierrebrunelle/pixeltable-warehouse-picklists",
+    "pitch": "Warehouse pick-list REST API: units, pick zones, waves and tote labels as incremental computed columns over Json order lines",
+    "date": "2026-10-08",
+    "features": [
+      "data-rw",
+      "computed",
+      "cloud",
+      "serving",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "database",
+      "warehouse-management",
+      "rest-api",
+      "udf",
+      "cloud",
+      "fastapi",
+      "multimodal"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-warehouse-picklists?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-warehouse-picklists/main/.github/social-preview.png"
+  },
+  {
     "name": "Ferry Booking",
     "repo": "pixeltable-ferry-bookings",
     "url": "https://github.com/pierrebrunelle/pixeltable-ferry-bookings",
