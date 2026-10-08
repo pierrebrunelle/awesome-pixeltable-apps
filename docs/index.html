@@ -1,0 +1,762 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Awesome Pixeltable Apps: runnable example apps built with Pixeltable</title>
+  <meta name="description" content="19 runnable Pixeltable example apps: FastAPI serving, computed columns and UDFs, indexes, media, secrets and Pixeltable Cloud. Open any of them in GitHub Codespaces.">
+  <link rel="canonical" href="https://pierrebrunelle.github.io/awesome-pixeltable-apps/">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Awesome Pixeltable Apps">
+  <meta property="og:title" content="Awesome Pixeltable Apps: runnable example apps built with Pixeltable">
+  <meta property="og:description" content="19 runnable Pixeltable example apps: FastAPI serving, computed columns and UDFs, indexes, media, secrets and Pixeltable Cloud. Open any of them in GitHub Codespaces.">
+  <meta property="og:url" content="https://pierrebrunelle.github.io/awesome-pixeltable-apps/">
+  <meta property="og:image" content="https://pierrebrunelle.github.io/awesome-pixeltable-apps/social-preview.png">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="640">
+  <meta property="og:image:alt" content="Awesome Pixeltable Apps: runnable example apps built with Pixeltable">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Awesome Pixeltable Apps: runnable example apps built with Pixeltable">
+  <meta name="twitter:description" content="19 runnable Pixeltable example apps: FastAPI serving, computed columns and UDFs, indexes, media, secrets and Pixeltable Cloud. Open any of them in GitHub Codespaces.">
+  <meta name="twitter:image" content="https://pierrebrunelle.github.io/awesome-pixeltable-apps/social-preview.png">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "ItemList",
+ "name": "Awesome Pixeltable Apps",
+ "description": "A curated gallery of runnable example apps built with Pixeltable: FastAPI serving, computed columns, UDFs, indexes, media, secrets and Pixeltable Cloud. Each one opens in GitHub Codespaces.",
+ "url": "https://pierrebrunelle.github.io/awesome-pixeltable-apps/",
+ "numberOfItems": 19,
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "url": "https://github.com/pierrebrunelle/pixeltable-ferry-bookings",
+   "item": {
+    "@type": "SoftwareSourceCode",
+    "name": "Ferry Booking API built with Pixeltable",
+    "description": "Ferry booking REST API: fares and deck classes as incremental computed columns, served with FastAPI.",
+    "codeRepository": "https://github.com/pierrebrunelle/pixeltable-ferry-bookings",
+    "url": "https://github.com/pierrebrunelle/pixeltable-ferry-bookings",
+    "programmingLanguage": {
+     "@type": "ComputerLanguage",
+     "name": "Python"
+    },
+    "runtimePlatform": "Pixeltable",
+    "license": "https://www.apache.org/licenses/LICENSE-2.0",
+    "keywords": "pixeltable, python, multimodal, ai, data-infrastructure, fastapi, rest-api, booking-system, openapi, concurrency",
+    "author": {
+     "@type": "Person",
+     "name": "Pierre Brunelle"
+    },
+    "dateCreated": "2026-10-07",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-ferry-bookings/main/.github/social-preview.png"
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "url": "https://github.com/pierrebrunelle/pixeltable-pharmacy-refills",
+   "item": {
+    "@type": "SoftwareSourceCode",
+    "name": "Pharmacy Refill API built with Pixeltable",
+    "description": "Pharmacy refill queue API with HMAC-signed receipts keyed by a runtime secret and B-tree indexed lookups.",
+    "codeRepository": "https://github.com/pierrebrunelle/pixeltable-pharmacy-refills",
+    "url": "https://github.com/pierrebrunelle/pixeltable-pharmacy-refills",
+    "programmingLanguage": {
+     "@type": "ComputerLanguage",
+     "name": "Python"
+    },
+    "runtimePlatform": "Pixeltable",
+    "license": "https://www.apache.org/licenses/LICENSE-2.0",
+    "keywords": "pixeltable, python, multimodal, ai, data-infrastructure, fastapi, secrets-management, healthcare, hmac, database-indexing",
+    "author": {
+     "@type": "Person",
+     "name": "Pierre Brunelle"
+    },
+    "dateCreated": "2026-10-06",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-pharmacy-refills/main/.github/social-preview.png"
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "url": "https://github.com/pierrebrunelle/pixeltable-mural-registry",
+   "item": {
+    "@type": "SoftwareSourceCode",
+    "name": "Mural Registry API built with Pixeltable",
+    "description": "Public-art mural registry API: wall photo uploads with thumbnails, grayscale copies and color tags.",
+    "codeRepository": "https://github.com/pierrebrunelle/pixeltable-mural-registry",
+    "url": "https://github.com/pierrebrunelle/pixeltable-mural-registry",
+    "programmingLanguage": {
+     "@type": "ComputerLanguage",
+     "name": "Python"
+    },
+    "runtimePlatform": "Pixeltable",
+    "license": "https://www.apache.org/licenses/LICENSE-2.0",
+    "keywords": "pixeltable, python, multimodal, ai, data-infrastructure, fastapi, computer-vision, street-art, image-processing, concurrency",
+    "author": {
+     "@type": "Person",
+     "name": "Pierre Brunelle"
+    },
+    "dateCreated": "2026-10-05",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-mural-registry/main/.github/social-preview.png"
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 4,
+   "url": "https://github.com/pierrebrunelle/pixeltable-greenhouse-bays",
+   "item": {
+    "@type": "SoftwareSourceCode",
+    "name": "Greenhouse Operations API built with Pixeltable",
+    "description": "Greenhouse operations API: bays, climate readings and plantings, sized for Pixeltable Cloud in pixeltable.toml.",
+    "codeRepository": "https://github.com/pierrebrunelle/pixeltable-greenhouse-bays",
+    "url": "https://github.com/pierrebrunelle/pixeltable-greenhouse-bays",
+    "programmingLanguage": {
+     "@type": "ComputerLanguage",
+     "name": "Python"
+    },
+    "runtimePlatform": "Pixeltable",
+    "license": "https://www.apache.org/licenses/LICENSE-2.0",
+    "keywords": "pixeltable, python, multimodal, ai, data-infrastructure, fastapi, configuration, greenhouse, agtech, cloud",
+    "author": {
+     "@type": "Person",
+     "name": "Pierre Brunelle"
+    },
+    "dateCreated": "2026-10-04",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-greenhouse-bays/main/.github/social-preview.png"
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 5,
+   "url": "https://github.com/pierrebrunelle/pixeltable-vineyard-blocks",
+   "item": {
+    "@type": "SoftwareSourceCode",
+    "name": "Vineyard Estate API built with Pixeltable",
+    "description": "Vineyard estate API: blocks, vines, harvests and tastings as four related Pixeltable tables with yield UDFs.",
+    "codeRepository": "https://github.com/pierrebrunelle/pixeltable-vineyard-blocks",
+    "url": "https://github.com/pierrebrunelle/pixeltable-vineyard-blocks",
+    "programmingLanguage": {
+     "@type": "ComputerLanguage",
+     "name": "Python"
+    },
+    "runtimePlatform": "Pixeltable",
+    "license": "https://www.apache.org/licenses/LICENSE-2.0",
+    "keywords": "pixeltable, python, multimodal, ai, data-infrastructure, fastapi, data-pipeline, vineyard, agriculture, configuration",
+    "author": {
+     "@type": "Person",
+     "name": "Pierre Brunelle"
+    },
+    "dateCreated": "2026-10-03",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-vineyard-blocks/main/.github/social-preview.png"
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 6,
+   "url": "https://github.com/pierrebrunelle/pixeltable-trail-permits",
+   "item": {
+    "@type": "SoftwareSourceCode",
+    "name": "Trail Permit API built with Pixeltable",
+    "description": "Backcountry trail permit API with check-ins, permit bands and a full Pixeltable Cloud lifecycle.",
+    "codeRepository": "https://github.com/pierrebrunelle/pixeltable-trail-permits",
+    "url": "https://github.com/pierrebrunelle/pixeltable-trail-permits",
+    "programmingLanguage": {
+     "@type": "ComputerLanguage",
+     "name": "Python"
+    },
+    "runtimePlatform": "Pixeltable",
+    "license": "https://www.apache.org/licenses/LICENSE-2.0",
+    "keywords": "pixeltable, python, multimodal, ai, data-infrastructure, fastapi, cloud, outdoors, permits, configuration",
+    "author": {
+     "@type": "Person",
+     "name": "Pierre Brunelle"
+    },
+    "dateCreated": "2026-10-02",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-trail-permits/main/.github/social-preview.png"
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 7,
+   "url": "https://github.com/pierrebrunelle/pixeltable-marina-berths",
+   "item": {
+    "@type": "SoftwareSourceCode",
+    "name": "Marina Berth Booking API built with Pixeltable",
+    "description": "Marina berth booking API: string primary keys, binary columns, berth fees and stay bands as computed columns.",
+    "codeRepository": "https://github.com/pierrebrunelle/pixeltable-marina-berths",
+    "url": "https://github.com/pierrebrunelle/pixeltable-marina-berths",
+    "programmingLanguage": {
+     "@type": "ComputerLanguage",
+     "name": "Python"
+    },
+    "runtimePlatform": "Pixeltable",
+    "license": "https://www.apache.org/licenses/LICENSE-2.0",
+    "keywords": "pixeltable, python, multimodal, ai, data-infrastructure, fastapi, database, marina, reservations, configuration",
+    "author": {
+     "@type": "Person",
+     "name": "Pierre Brunelle"
+    },
+    "dateCreated": "2026-10-01",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-marina-berths/main/.github/social-preview.png"
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 8,
+   "url": "https://github.com/pierrebrunelle/pixeltable-museum-loans",
+   "item": {
+    "@type": "SoftwareSourceCode",
+    "name": "Museum Loans API built with Pixeltable",
+    "description": "Museum object loan tracker API with overdue flags and urgency bands, explorable from the pxt CLI and dashboard.",
+    "codeRepository": "https://github.com/pierrebrunelle/pixeltable-museum-loans",
+    "url": "https://github.com/pierrebrunelle/pixeltable-museum-loans",
+    "programmingLanguage": {
+     "@type": "ComputerLanguage",
+     "name": "Python"
+    },
+    "runtimePlatform": "Pixeltable",
+    "license": "https://www.apache.org/licenses/LICENSE-2.0",
+    "keywords": "pixeltable, python, multimodal, ai, data-infrastructure, fastapi, cli, museum, collections-management, database",
+    "author": {
+     "@type": "Person",
+     "name": "Pierre Brunelle"
+    },
+    "dateCreated": "2026-09-30",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-museum-loans/main/.github/social-preview.png"
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 9,
+   "url": "https://github.com/pierrebrunelle/pixeltable-invoice-audit",
+   "item": {
+    "@type": "SoftwareSourceCode",
+    "name": "Invoice Audit API built with Pixeltable",
+    "description": "Invoice line-item audit API: a chain of computed columns from subtotal to tax, total and risk band.",
+    "codeRepository": "https://github.com/pierrebrunelle/pixeltable-invoice-audit",
+    "url": "https://github.com/pierrebrunelle/pixeltable-invoice-audit",
+    "programmingLanguage": {
+     "@type": "ComputerLanguage",
+     "name": "Python"
+    },
+    "runtimePlatform": "Pixeltable",
+    "license": "https://www.apache.org/licenses/LICENSE-2.0",
+    "keywords": "pixeltable, python, multimodal, ai, data-infrastructure, fastapi, udf, accounting, risk-scoring, cli",
+    "author": {
+     "@type": "Person",
+     "name": "Pierre Brunelle"
+    },
+    "dateCreated": "2026-09-29",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-invoice-audit/main/.github/social-preview.png"
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 10,
+   "url": "https://github.com/pierrebrunelle/pixeltable-lab-accession",
+   "item": {
+    "@type": "SoftwareSourceCode",
+    "name": "Lab Accession API built with Pixeltable",
+    "description": "Lab sample accession queue API: three related tables, parallel writers and racing claims.",
+    "codeRepository": "https://github.com/pierrebrunelle/pixeltable-lab-accession",
+    "url": "https://github.com/pierrebrunelle/pixeltable-lab-accession",
+    "programmingLanguage": {
+     "@type": "ComputerLanguage",
+     "name": "Python"
+    },
+    "runtimePlatform": "Pixeltable",
+    "license": "https://www.apache.org/licenses/LICENSE-2.0",
+    "keywords": "pixeltable, python, multimodal, ai, data-infrastructure, fastapi, concurrency, laboratory, work-queue, data-pipeline",
+    "author": {
+     "@type": "Person",
+     "name": "Pierre Brunelle"
+    },
+    "dateCreated": "2026-09-28",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-lab-accession/main/.github/social-preview.png"
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 11,
+   "url": "https://github.com/pierrebrunelle/pixeltable-fleet-telemetry",
+   "item": {
+    "@type": "SoftwareSourceCode",
+    "name": "Fleet Telemetry API built with Pixeltable",
+    "description": "Fleet telemetry API with B-tree indexed lookups and a chained severity/alert UDF pipeline.",
+    "codeRepository": "https://github.com/pierrebrunelle/pixeltable-fleet-telemetry",
+    "url": "https://github.com/pierrebrunelle/pixeltable-fleet-telemetry",
+    "programmingLanguage": {
+     "@type": "ComputerLanguage",
+     "name": "Python"
+    },
+    "runtimePlatform": "Pixeltable",
+    "license": "https://www.apache.org/licenses/LICENSE-2.0",
+    "keywords": "pixeltable, python, multimodal, ai, data-infrastructure, fastapi, database-indexing, iot, telemetry, udf",
+    "author": {
+     "@type": "Person",
+     "name": "Pierre Brunelle"
+    },
+    "dateCreated": "2026-09-27",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-fleet-telemetry/main/.github/social-preview.png"
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 12,
+   "url": "https://github.com/pierrebrunelle/pixeltable-webhook-vault",
+   "item": {
+    "@type": "SoftwareSourceCode",
+    "name": "Webhook Vault API built with Pixeltable",
+    "description": "Webhook registry API that HMAC-signs payloads with a secret from the environment, as computed columns.",
+    "codeRepository": "https://github.com/pierrebrunelle/pixeltable-webhook-vault",
+    "url": "https://github.com/pierrebrunelle/pixeltable-webhook-vault",
+    "programmingLanguage": {
+     "@type": "ComputerLanguage",
+     "name": "Python"
+    },
+    "runtimePlatform": "Pixeltable",
+    "license": "https://www.apache.org/licenses/LICENSE-2.0",
+    "keywords": "pixeltable, python, multimodal, ai, data-infrastructure, fastapi, secrets-management, webhooks, hmac, configuration",
+    "author": {
+     "@type": "Person",
+     "name": "Pierre Brunelle"
+    },
+    "dateCreated": "2026-09-26",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-webhook-vault/main/.github/social-preview.png"
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 13,
+   "url": "https://github.com/pierrebrunelle/pixeltable-travel-scrapbook",
+   "item": {
+    "@type": "SoftwareSourceCode",
+    "name": "Travel Scrapbook API built with Pixeltable",
+    "description": "Travel photo scrapbook API: image uploads, thumbnails and place tags as computed columns.",
+    "codeRepository": "https://github.com/pierrebrunelle/pixeltable-travel-scrapbook",
+    "url": "https://github.com/pierrebrunelle/pixeltable-travel-scrapbook",
+    "programmingLanguage": {
+     "@type": "ComputerLanguage",
+     "name": "Python"
+    },
+    "runtimePlatform": "Pixeltable",
+    "license": "https://www.apache.org/licenses/LICENSE-2.0",
+    "keywords": "pixeltable, python, multimodal, ai, data-infrastructure, fastapi, computer-vision, image-processing, travel, database",
+    "author": {
+     "@type": "Person",
+     "name": "Pierre Brunelle"
+    },
+    "dateCreated": "2026-09-26",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-travel-scrapbook/main/.github/social-preview.png"
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 14,
+   "url": "https://github.com/pierrebrunelle/pixeltable-plant-care",
+   "item": {
+    "@type": "SoftwareSourceCode",
+    "name": "Plant Care API built with Pixeltable",
+    "description": "Houseplant care API that turns soil moisture and watering history into care advice via computed columns.",
+    "codeRepository": "https://github.com/pierrebrunelle/pixeltable-plant-care",
+    "url": "https://github.com/pierrebrunelle/pixeltable-plant-care",
+    "programmingLanguage": {
+     "@type": "ComputerLanguage",
+     "name": "Python"
+    },
+    "runtimePlatform": "Pixeltable",
+    "license": "https://www.apache.org/licenses/LICENSE-2.0",
+    "keywords": "pixeltable, python, multimodal, ai, data-infrastructure, fastapi, rest-api, houseplants, reminders, openapi",
+    "author": {
+     "@type": "Person",
+     "name": "Pierre Brunelle"
+    },
+    "dateCreated": "2026-09-26",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-plant-care/main/.github/social-preview.png"
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 15,
+   "url": "https://github.com/pierrebrunelle/pixeltable-coffee-journal",
+   "item": {
+    "@type": "SoftwareSourceCode",
+    "name": "Coffee Journal API built with Pixeltable",
+    "description": "Coffee tasting journal API: roast labels and tasting summaries as computed columns.",
+    "codeRepository": "https://github.com/pierrebrunelle/pixeltable-coffee-journal",
+    "url": "https://github.com/pierrebrunelle/pixeltable-coffee-journal",
+    "programmingLanguage": {
+     "@type": "ComputerLanguage",
+     "name": "Python"
+    },
+    "runtimePlatform": "Pixeltable",
+    "license": "https://www.apache.org/licenses/LICENSE-2.0",
+    "keywords": "pixeltable, python, multimodal, ai, data-infrastructure, fastapi, rest-api, coffee, tasting-notes, openapi",
+    "author": {
+     "@type": "Person",
+     "name": "Pierre Brunelle"
+    },
+    "dateCreated": "2026-09-25",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-coffee-journal/main/.github/social-preview.png"
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 16,
+   "url": "https://github.com/pierrebrunelle/pixeltable-habit-tracker",
+   "item": {
+    "@type": "SoftwareSourceCode",
+    "name": "Habit Tracker API built with Pixeltable",
+    "description": "Habit tracker API with streak labels as computed columns, deployable to Pixeltable Cloud.",
+    "codeRepository": "https://github.com/pierrebrunelle/pixeltable-habit-tracker",
+    "url": "https://github.com/pierrebrunelle/pixeltable-habit-tracker",
+    "programmingLanguage": {
+     "@type": "ComputerLanguage",
+     "name": "Python"
+    },
+    "runtimePlatform": "Pixeltable",
+    "license": "https://www.apache.org/licenses/LICENSE-2.0",
+    "keywords": "pixeltable, python, multimodal, ai, data-infrastructure, fastapi, rest-api, habit-tracker, productivity, openapi",
+    "author": {
+     "@type": "Person",
+     "name": "Pierre Brunelle"
+    },
+    "dateCreated": "2026-09-24",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-habit-tracker/main/.github/social-preview.png"
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 17,
+   "url": "https://github.com/pierrebrunelle/pixeltable-recipe-box",
+   "item": {
+    "@type": "SoftwareSourceCode",
+    "name": "Recipe Box API built with Pixeltable",
+    "description": "Recipe box API with ingredient counts and quick-meal search as computed columns and queries.",
+    "codeRepository": "https://github.com/pierrebrunelle/pixeltable-recipe-box",
+    "url": "https://github.com/pierrebrunelle/pixeltable-recipe-box",
+    "programmingLanguage": {
+     "@type": "ComputerLanguage",
+     "name": "Python"
+    },
+    "runtimePlatform": "Pixeltable",
+    "license": "https://www.apache.org/licenses/LICENSE-2.0",
+    "keywords": "pixeltable, python, multimodal, ai, data-infrastructure, fastapi, rest-api, recipes, cooking, openapi",
+    "author": {
+     "@type": "Person",
+     "name": "Pierre Brunelle"
+    },
+    "dateCreated": "2026-09-23",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-recipe-box/main/.github/social-preview.png"
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 18,
+   "url": "https://github.com/pierrebrunelle/pixeltable-bookmark-shelf",
+   "item": {
+    "@type": "SoftwareSourceCode",
+    "name": "Bookmark Shelf API built with Pixeltable",
+    "description": "Bookmark manager API that derives domains and tag counts as computed columns, served with FastAPI.",
+    "codeRepository": "https://github.com/pierrebrunelle/pixeltable-bookmark-shelf",
+    "url": "https://github.com/pierrebrunelle/pixeltable-bookmark-shelf",
+    "programmingLanguage": {
+     "@type": "ComputerLanguage",
+     "name": "Python"
+    },
+    "runtimePlatform": "Pixeltable",
+    "license": "https://www.apache.org/licenses/LICENSE-2.0",
+    "keywords": "pixeltable, python, multimodal, ai, data-infrastructure, fastapi, rest-api, bookmarks, url-parsing, openapi",
+    "author": {
+     "@type": "Person",
+     "name": "Pierre Brunelle"
+    },
+    "dateCreated": "2026-09-22",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-bookmark-shelf/main/.github/social-preview.png"
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 19,
+   "url": "https://github.com/pierrebrunelle/pixeltable-sticky-notes",
+   "item": {
+    "@type": "SoftwareSourceCode",
+    "name": "Sticky Notes API built with Pixeltable",
+    "description": "Sticky-notes REST API where titles and previews are computed columns, served with FastAPI.",
+    "codeRepository": "https://github.com/pierrebrunelle/pixeltable-sticky-notes",
+    "url": "https://github.com/pierrebrunelle/pixeltable-sticky-notes",
+    "programmingLanguage": {
+     "@type": "ComputerLanguage",
+     "name": "Python"
+    },
+    "runtimePlatform": "Pixeltable",
+    "license": "https://www.apache.org/licenses/LICENSE-2.0",
+    "keywords": "pixeltable, python, multimodal, ai, data-infrastructure, fastapi, rest-api, notes-app, openapi, udf",
+    "author": {
+     "@type": "Person",
+     "name": "Pierre Brunelle"
+    },
+    "dateCreated": "2026-09-21",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-sticky-notes/main/.github/social-preview.png"
+   }
+  }
+ ]
+}
+  </script>
+  <style>
+    :root { --bg:#0f1023; --panel:#181a36; --text:#ecebff; --muted:#a9a6d6; --accent:#7c6cff; }
+    * { box-sizing:border-box; }
+    body { margin:0; font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--text); }
+    a { color:#b9b0ff; }
+    header, main, footer { max-width:1180px; margin:0 auto; padding:0 20px; }
+    header { padding-top:48px; }
+    h1 { font-size:2.4rem; margin:0 0 8px; }
+    .lede { color:var(--muted); max-width:780px; }
+    .cta a { display:inline-block; margin:8px 10px 0 0; padding:8px 14px; border-radius:999px; background:var(--panel); border:1px solid #3a3670; text-decoration:none; }
+    .filters { display:flex; flex-wrap:wrap; gap:8px; margin:28px 0 20px; }
+    .filters button, .filters input { font:inherit; color:var(--text); background:var(--panel); border:1px solid #3a3670; border-radius:999px; padding:6px 14px; }
+    .filters button[aria-pressed="true"] { background:var(--accent); border-color:var(--accent); }
+    .filters input { flex:1 1 220px; border-radius:10px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:20px; }
+    .card { background:var(--panel); border:1px solid #2c2a58; border-radius:14px; overflow:hidden; display:flex; flex-direction:column; }
+    .card img { width:100%; height:auto; display:block; }
+    .body { padding:14px 16px 16px; }
+    .card h2 { font-size:1.2rem; margin:0 0 6px; }
+    .card h2 a { color:var(--text); text-decoration:none; }
+    .card p { margin:0 0 10px; color:var(--muted); }
+    .chips { list-style:none; padding:0; margin:0 0 12px; display:flex; flex-wrap:wrap; gap:6px; }
+    .chips li { font-size:.8rem; padding:2px 10px; border-radius:999px; border:1px solid #4b44a0; color:#d9d5ff; }
+    .links a { margin-right:12px; }
+    .links .cs { font-weight:600; }
+    .date { float:right; color:#77749f; font-size:.85rem; }
+    footer { color:var(--muted); padding:40px 20px 60px; }
+    [hidden] { display:none !important; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Awesome Pixeltable Apps</h1>
+    <p class="lede">19 runnable example apps built with <a href="https://pixeltable.com">Pixeltable</a>, the open-source, Python-native multimodal AI data infrastructure. Each app is a small REST API with tables declared as Python classes, incremental computed columns, UDFs and <code>FastAPIRouter</code> serving. Open one in GitHub Codespaces, run it locally, or deploy it to Pixeltable Cloud.</p>
+    <p class="cta"><a href="https://github.com/pixeltable/pixeltable">⭐ Star Pixeltable on GitHub</a><a href="https://docs.pixeltable.com">📚 Docs</a><a href="https://pixeltable.com">🌐 pixeltable.com</a><a href="https://github.com/pierrebrunelle/awesome-pixeltable-apps">This list on GitHub</a></p>
+  </header>
+  <main>
+    <div class="filters" role="toolbar" aria-label="Filter by Pixeltable feature">
+      <button type="button" data-f="" aria-pressed="true">All</button>
+      <button type="button" data-f="serving">FastAPI serving</button>
+      <button type="button" data-f="computed">Computed columns &amp; UDFs</button>
+      <button type="button" data-f="indexes">B-tree indexes</button>
+      <button type="button" data-f="media">Media (images)</button>
+      <button type="button" data-f="secrets">Secrets</button>
+      <button type="button" data-f="toml">pixeltable.toml config</button>
+      <button type="button" data-f="concurrency">Concurrency</button>
+      <button type="button" data-f="cloud">Pixeltable Cloud</button>
+      <button type="button" data-f="multitable">Multi-table &amp; schema evolution</button>
+      <button type="button" data-f="data-rw">Data reads &amp; writes</button>
+      <button type="button" data-f="cli">pxt CLI &amp; dashboard</button>
+      <input type="search" id="q" placeholder="Search apps…" aria-label="Search apps">
+    </div>
+    <section class="grid" id="apps">
+    <article class="card" id="pixeltable-ferry-bookings" data-features="serving concurrency data-rw computed indexes">
+      <a href="https://github.com/pierrebrunelle/pixeltable-ferry-bookings"><img src="https://raw.githubusercontent.com/pierrebrunelle/pixeltable-ferry-bookings/main/.github/social-preview.png" alt="Ferry Booking API built with Pixeltable" width="1280" height="640" loading="lazy"></a>
+      <div class="body">
+        <h2><a href="https://github.com/pierrebrunelle/pixeltable-ferry-bookings">Ferry Booking</a></h2>
+        <p>Ferry booking REST API: fares and deck classes as incremental computed columns, served with FastAPI.</p>
+        <ul class="chips"><li>FastAPI serving</li><li>Concurrency</li><li>Data reads &amp; writes</li><li>Computed columns &amp; UDFs</li><li>B-tree indexes</li></ul>
+        <p class="links"><a href="https://github.com/pierrebrunelle/pixeltable-ferry-bookings">Source on GitHub</a> <a class="cs" href="https://codespaces.new/pierrebrunelle/pixeltable-ferry-bookings?quickstart=1">Open in Codespaces</a> <span class="date">2026-10-07</span></p>
+      </div>
+    </article>
+    <article class="card" id="pixeltable-pharmacy-refills" data-features="secrets indexes cli serving computed">
+      <a href="https://github.com/pierrebrunelle/pixeltable-pharmacy-refills"><img src="https://raw.githubusercontent.com/pierrebrunelle/pixeltable-pharmacy-refills/main/.github/social-preview.png" alt="Pharmacy Refill API built with Pixeltable" width="1280" height="640" loading="lazy"></a>
+      <div class="body">
+        <h2><a href="https://github.com/pierrebrunelle/pixeltable-pharmacy-refills">Pharmacy Refill</a></h2>
+        <p>Pharmacy refill queue API with HMAC-signed receipts keyed by a runtime secret and B-tree indexed lookups.</p>
+        <ul class="chips"><li>Secrets</li><li>B-tree indexes</li><li>pxt CLI &amp; dashboard</li><li>FastAPI serving</li><li>Computed columns &amp; UDFs</li></ul>
+        <p class="links"><a href="https://github.com/pierrebrunelle/pixeltable-pharmacy-refills">Source on GitHub</a> <a class="cs" href="https://codespaces.new/pierrebrunelle/pixeltable-pharmacy-refills?quickstart=1">Open in Codespaces</a> <span class="date">2026-10-06</span></p>
+      </div>
+    </article>
+    <article class="card" id="pixeltable-mural-registry" data-features="media concurrency computed serving indexes">
+      <a href="https://github.com/pierrebrunelle/pixeltable-mural-registry"><img src="https://raw.githubusercontent.com/pierrebrunelle/pixeltable-mural-registry/main/.github/social-preview.png" alt="Mural Registry API built with Pixeltable" width="1280" height="640" loading="lazy"></a>
+      <div class="body">
+        <h2><a href="https://github.com/pierrebrunelle/pixeltable-mural-registry">Mural Registry</a></h2>
+        <p>Public-art mural registry API: wall photo uploads with thumbnails, grayscale copies and color tags.</p>
+        <ul class="chips"><li>Media (images)</li><li>Concurrency</li><li>Computed columns &amp; UDFs</li><li>FastAPI serving</li><li>B-tree indexes</li></ul>
+        <p class="links"><a href="https://github.com/pierrebrunelle/pixeltable-mural-registry">Source on GitHub</a> <a class="cs" href="https://codespaces.new/pierrebrunelle/pixeltable-mural-registry?quickstart=1">Open in Codespaces</a> <span class="date">2026-10-05</span></p>
+      </div>
+    </article>
+    <article class="card" id="pixeltable-greenhouse-bays" data-features="toml cloud indexes serving computed">
+      <a href="https://github.com/pierrebrunelle/pixeltable-greenhouse-bays"><img src="https://raw.githubusercontent.com/pierrebrunelle/pixeltable-greenhouse-bays/main/.github/social-preview.png" alt="Greenhouse Operations API built with Pixeltable" width="1280" height="640" loading="lazy"></a>
+      <div class="body">
+        <h2><a href="https://github.com/pierrebrunelle/pixeltable-greenhouse-bays">Greenhouse Operations</a></h2>
+        <p>Greenhouse operations API: bays, climate readings and plantings, sized for Pixeltable Cloud in pixeltable.toml.</p>
+        <ul class="chips"><li>pixeltable.toml config</li><li>Pixeltable Cloud</li><li>B-tree indexes</li><li>FastAPI serving</li><li>Computed columns &amp; UDFs</li></ul>
+        <p class="links"><a href="https://github.com/pierrebrunelle/pixeltable-greenhouse-bays">Source on GitHub</a> <a class="cs" href="https://codespaces.new/pierrebrunelle/pixeltable-greenhouse-bays?quickstart=1">Open in Codespaces</a> <span class="date">2026-10-04</span></p>
+      </div>
+    </article>
+    <article class="card" id="pixeltable-vineyard-blocks" data-features="multitable toml serving computed">
+      <a href="https://github.com/pierrebrunelle/pixeltable-vineyard-blocks"><img src="https://raw.githubusercontent.com/pierrebrunelle/pixeltable-vineyard-blocks/main/.github/social-preview.png" alt="Vineyard Estate API built with Pixeltable" width="1280" height="640" loading="lazy"></a>
+      <div class="body">
+        <h2><a href="https://github.com/pierrebrunelle/pixeltable-vineyard-blocks">Vineyard Estate</a></h2>
+        <p>Vineyard estate API: blocks, vines, harvests and tastings as four related Pixeltable tables with yield UDFs.</p>
+        <ul class="chips"><li>Multi-table &amp; schema evolution</li><li>pixeltable.toml config</li><li>FastAPI serving</li><li>Computed columns &amp; UDFs</li></ul>
+        <p class="links"><a href="https://github.com/pierrebrunelle/pixeltable-vineyard-blocks">Source on GitHub</a> <a class="cs" href="https://codespaces.new/pierrebrunelle/pixeltable-vineyard-blocks?quickstart=1">Open in Codespaces</a> <span class="date">2026-10-03</span></p>
+      </div>
+    </article>
+    <article class="card" id="pixeltable-trail-permits" data-features="cloud toml multitable serving computed">
+      <a href="https://github.com/pierrebrunelle/pixeltable-trail-permits"><img src="https://raw.githubusercontent.com/pierrebrunelle/pixeltable-trail-permits/main/.github/social-preview.png" alt="Trail Permit API built with Pixeltable" width="1280" height="640" loading="lazy"></a>
+      <div class="body">
+        <h2><a href="https://github.com/pierrebrunelle/pixeltable-trail-permits">Trail Permit</a></h2>
+        <p>Backcountry trail permit API with check-ins, permit bands and a full Pixeltable Cloud lifecycle.</p>
+        <ul class="chips"><li>Pixeltable Cloud</li><li>pixeltable.toml config</li><li>Multi-table &amp; schema evolution</li><li>FastAPI serving</li><li>Computed columns &amp; UDFs</li></ul>
+        <p class="links"><a href="https://github.com/pierrebrunelle/pixeltable-trail-permits">Source on GitHub</a> <a class="cs" href="https://codespaces.new/pierrebrunelle/pixeltable-trail-permits?quickstart=1">Open in Codespaces</a> <span class="date">2026-10-02</span></p>
+      </div>
+    </article>
+    <article class="card" id="pixeltable-marina-berths" data-features="data-rw toml multitable serving computed">
+      <a href="https://github.com/pierrebrunelle/pixeltable-marina-berths"><img src="https://raw.githubusercontent.com/pierrebrunelle/pixeltable-marina-berths/main/.github/social-preview.png" alt="Marina Berth Booking API built with Pixeltable" width="1280" height="640" loading="lazy"></a>
+      <div class="body">
+        <h2><a href="https://github.com/pierrebrunelle/pixeltable-marina-berths">Marina Berth Booking</a></h2>
+        <p>Marina berth booking API: string primary keys, binary columns, berth fees and stay bands as computed columns.</p>
+        <ul class="chips"><li>Data reads &amp; writes</li><li>pixeltable.toml config</li><li>Multi-table &amp; schema evolution</li><li>FastAPI serving</li><li>Computed columns &amp; UDFs</li></ul>
+        <p class="links"><a href="https://github.com/pierrebrunelle/pixeltable-marina-berths">Source on GitHub</a> <a class="cs" href="https://codespaces.new/pierrebrunelle/pixeltable-marina-berths?quickstart=1">Open in Codespaces</a> <span class="date">2026-10-01</span></p>
+      </div>
+    </article>
+    <article class="card" id="pixeltable-museum-loans" data-features="cli data-rw cloud serving computed">
+      <a href="https://github.com/pierrebrunelle/pixeltable-museum-loans"><img src="https://raw.githubusercontent.com/pierrebrunelle/pixeltable-museum-loans/main/.github/social-preview.png" alt="Museum Loans API built with Pixeltable" width="1280" height="640" loading="lazy"></a>
+      <div class="body">
+        <h2><a href="https://github.com/pierrebrunelle/pixeltable-museum-loans">Museum Loans</a></h2>
+        <p>Museum object loan tracker API with overdue flags and urgency bands, explorable from the pxt CLI and dashboard.</p>
+        <ul class="chips"><li>pxt CLI &amp; dashboard</li><li>Data reads &amp; writes</li><li>Pixeltable Cloud</li><li>FastAPI serving</li><li>Computed columns &amp; UDFs</li></ul>
+        <p class="links"><a href="https://github.com/pierrebrunelle/pixeltable-museum-loans">Source on GitHub</a> <a class="cs" href="https://codespaces.new/pierrebrunelle/pixeltable-museum-loans?quickstart=1">Open in Codespaces</a> <span class="date">2026-09-30</span></p>
+      </div>
+    </article>
+    <article class="card" id="pixeltable-invoice-audit" data-features="computed cli toml serving">
+      <a href="https://github.com/pierrebrunelle/pixeltable-invoice-audit"><img src="https://raw.githubusercontent.com/pierrebrunelle/pixeltable-invoice-audit/main/.github/social-preview.png" alt="Invoice Audit API built with Pixeltable" width="1280" height="640" loading="lazy"></a>
+      <div class="body">
+        <h2><a href="https://github.com/pierrebrunelle/pixeltable-invoice-audit">Invoice Audit</a></h2>
+        <p>Invoice line-item audit API: a chain of computed columns from subtotal to tax, total and risk band.</p>
+        <ul class="chips"><li>Computed columns &amp; UDFs</li><li>pxt CLI &amp; dashboard</li><li>pixeltable.toml config</li><li>FastAPI serving</li></ul>
+        <p class="links"><a href="https://github.com/pierrebrunelle/pixeltable-invoice-audit">Source on GitHub</a> <a class="cs" href="https://codespaces.new/pierrebrunelle/pixeltable-invoice-audit?quickstart=1">Open in Codespaces</a> <span class="date">2026-09-29</span></p>
+      </div>
+    </article>
+    <article class="card" id="pixeltable-lab-accession" data-features="concurrency multitable cloud serving computed indexes">
+      <a href="https://github.com/pierrebrunelle/pixeltable-lab-accession"><img src="https://raw.githubusercontent.com/pierrebrunelle/pixeltable-lab-accession/main/.github/social-preview.png" alt="Lab Accession API built with Pixeltable" width="1280" height="640" loading="lazy"></a>
+      <div class="body">
+        <h2><a href="https://github.com/pierrebrunelle/pixeltable-lab-accession">Lab Accession</a></h2>
+        <p>Lab sample accession queue API: three related tables, parallel writers and racing claims.</p>
+        <ul class="chips"><li>Concurrency</li><li>Multi-table &amp; schema evolution</li><li>Pixeltable Cloud</li><li>FastAPI serving</li><li>Computed columns &amp; UDFs</li><li>B-tree indexes</li></ul>
+        <p class="links"><a href="https://github.com/pierrebrunelle/pixeltable-lab-accession">Source on GitHub</a> <a class="cs" href="https://codespaces.new/pierrebrunelle/pixeltable-lab-accession?quickstart=1">Open in Codespaces</a> <span class="date">2026-09-28</span></p>
+      </div>
+    </article>
+    <article class="card" id="pixeltable-fleet-telemetry" data-features="indexes computed data-rw serving">
+      <a href="https://github.com/pierrebrunelle/pixeltable-fleet-telemetry"><img src="https://raw.githubusercontent.com/pierrebrunelle/pixeltable-fleet-telemetry/main/.github/social-preview.png" alt="Fleet Telemetry API built with Pixeltable" width="1280" height="640" loading="lazy"></a>
+      <div class="body">
+        <h2><a href="https://github.com/pierrebrunelle/pixeltable-fleet-telemetry">Fleet Telemetry</a></h2>
+        <p>Fleet telemetry API with B-tree indexed lookups and a chained severity/alert UDF pipeline.</p>
+        <ul class="chips"><li>B-tree indexes</li><li>Computed columns &amp; UDFs</li><li>Data reads &amp; writes</li><li>FastAPI serving</li></ul>
+        <p class="links"><a href="https://github.com/pierrebrunelle/pixeltable-fleet-telemetry">Source on GitHub</a> <a class="cs" href="https://codespaces.new/pierrebrunelle/pixeltable-fleet-telemetry?quickstart=1">Open in Codespaces</a> <span class="date">2026-09-27</span></p>
+      </div>
+    </article>
+    <article class="card" id="pixeltable-webhook-vault" data-features="secrets toml serving computed">
+      <a href="https://github.com/pierrebrunelle/pixeltable-webhook-vault"><img src="https://raw.githubusercontent.com/pierrebrunelle/pixeltable-webhook-vault/main/.github/social-preview.png" alt="Webhook Vault API built with Pixeltable" width="1280" height="640" loading="lazy"></a>
+      <div class="body">
+        <h2><a href="https://github.com/pierrebrunelle/pixeltable-webhook-vault">Webhook Vault</a></h2>
+        <p>Webhook registry API that HMAC-signs payloads with a secret from the environment, as computed columns.</p>
+        <ul class="chips"><li>Secrets</li><li>pixeltable.toml config</li><li>FastAPI serving</li><li>Computed columns &amp; UDFs</li></ul>
+        <p class="links"><a href="https://github.com/pierrebrunelle/pixeltable-webhook-vault">Source on GitHub</a> <a class="cs" href="https://codespaces.new/pierrebrunelle/pixeltable-webhook-vault?quickstart=1">Open in Codespaces</a> <span class="date">2026-09-26</span></p>
+      </div>
+    </article>
+    <article class="card" id="pixeltable-travel-scrapbook" data-features="media data-rw serving computed">
+      <a href="https://github.com/pierrebrunelle/pixeltable-travel-scrapbook"><img src="https://raw.githubusercontent.com/pierrebrunelle/pixeltable-travel-scrapbook/main/.github/social-preview.png" alt="Travel Scrapbook API built with Pixeltable" width="1280" height="640" loading="lazy"></a>
+      <div class="body">
+        <h2><a href="https://github.com/pierrebrunelle/pixeltable-travel-scrapbook">Travel Scrapbook</a></h2>
+        <p>Travel photo scrapbook API: image uploads, thumbnails and place tags as computed columns.</p>
+        <ul class="chips"><li>Media (images)</li><li>Data reads &amp; writes</li><li>FastAPI serving</li><li>Computed columns &amp; UDFs</li></ul>
+        <p class="links"><a href="https://github.com/pierrebrunelle/pixeltable-travel-scrapbook">Source on GitHub</a> <a class="cs" href="https://codespaces.new/pierrebrunelle/pixeltable-travel-scrapbook?quickstart=1">Open in Codespaces</a> <span class="date">2026-09-26</span></p>
+      </div>
+    </article>
+    <article class="card" id="pixeltable-plant-care" data-features="serving computed">
+      <a href="https://github.com/pierrebrunelle/pixeltable-plant-care"><img src="https://raw.githubusercontent.com/pierrebrunelle/pixeltable-plant-care/main/.github/social-preview.png" alt="Plant Care API built with Pixeltable" width="1280" height="640" loading="lazy"></a>
+      <div class="body">
+        <h2><a href="https://github.com/pierrebrunelle/pixeltable-plant-care">Plant Care</a></h2>
+        <p>Houseplant care API that turns soil moisture and watering history into care advice via computed columns.</p>
+        <ul class="chips"><li>FastAPI serving</li><li>Computed columns &amp; UDFs</li></ul>
+        <p class="links"><a href="https://github.com/pierrebrunelle/pixeltable-plant-care">Source on GitHub</a> <a class="cs" href="https://codespaces.new/pierrebrunelle/pixeltable-plant-care?quickstart=1">Open in Codespaces</a> <span class="date">2026-09-26</span></p>
+      </div>
+    </article>
+    <article class="card" id="pixeltable-coffee-journal" data-features="serving cloud computed">
+      <a href="https://github.com/pierrebrunelle/pixeltable-coffee-journal"><img src="https://raw.githubusercontent.com/pierrebrunelle/pixeltable-coffee-journal/main/.github/social-preview.png" alt="Coffee Journal API built with Pixeltable" width="1280" height="640" loading="lazy"></a>
+      <div class="body">
+        <h2><a href="https://github.com/pierrebrunelle/pixeltable-coffee-journal">Coffee Journal</a></h2>
+        <p>Coffee tasting journal API: roast labels and tasting summaries as computed columns.</p>
+        <ul class="chips"><li>FastAPI serving</li><li>Pixeltable Cloud</li><li>Computed columns &amp; UDFs</li></ul>
+        <p class="links"><a href="https://github.com/pierrebrunelle/pixeltable-coffee-journal">Source on GitHub</a> <a class="cs" href="https://codespaces.new/pierrebrunelle/pixeltable-coffee-journal?quickstart=1">Open in Codespaces</a> <span class="date">2026-09-25</span></p>
+      </div>
+    </article>
+    <article class="card" id="pixeltable-habit-tracker" data-features="serving cloud computed">
+      <a href="https://github.com/pierrebrunelle/pixeltable-habit-tracker"><img src="https://raw.githubusercontent.com/pierrebrunelle/pixeltable-habit-tracker/main/.github/social-preview.png" alt="Habit Tracker API built with Pixeltable" width="1280" height="640" loading="lazy"></a>
+      <div class="body">
+        <h2><a href="https://github.com/pierrebrunelle/pixeltable-habit-tracker">Habit Tracker</a></h2>
+        <p>Habit tracker API with streak labels as computed columns, deployable to Pixeltable Cloud.</p>
+        <ul class="chips"><li>FastAPI serving</li><li>Pixeltable Cloud</li><li>Computed columns &amp; UDFs</li></ul>
+        <p class="links"><a href="https://github.com/pierrebrunelle/pixeltable-habit-tracker">Source on GitHub</a> <a class="cs" href="https://codespaces.new/pierrebrunelle/pixeltable-habit-tracker?quickstart=1">Open in Codespaces</a> <span class="date">2026-09-24</span></p>
+      </div>
+    </article>
+    <article class="card" id="pixeltable-recipe-box" data-features="serving computed">
+      <a href="https://github.com/pierrebrunelle/pixeltable-recipe-box"><img src="https://raw.githubusercontent.com/pierrebrunelle/pixeltable-recipe-box/main/.github/social-preview.png" alt="Recipe Box API built with Pixeltable" width="1280" height="640" loading="lazy"></a>
+      <div class="body">
+        <h2><a href="https://github.com/pierrebrunelle/pixeltable-recipe-box">Recipe Box</a></h2>
+        <p>Recipe box API with ingredient counts and quick-meal search as computed columns and queries.</p>
+        <ul class="chips"><li>FastAPI serving</li><li>Computed columns &amp; UDFs</li></ul>
+        <p class="links"><a href="https://github.com/pierrebrunelle/pixeltable-recipe-box">Source on GitHub</a> <a class="cs" href="https://codespaces.new/pierrebrunelle/pixeltable-recipe-box?quickstart=1">Open in Codespaces</a> <span class="date">2026-09-23</span></p>
+      </div>
+    </article>
+    <article class="card" id="pixeltable-bookmark-shelf" data-features="serving computed">
+      <a href="https://github.com/pierrebrunelle/pixeltable-bookmark-shelf"><img src="https://raw.githubusercontent.com/pierrebrunelle/pixeltable-bookmark-shelf/main/.github/social-preview.png" alt="Bookmark Shelf API built with Pixeltable" width="1280" height="640" loading="lazy"></a>
+      <div class="body">
+        <h2><a href="https://github.com/pierrebrunelle/pixeltable-bookmark-shelf">Bookmark Shelf</a></h2>
+        <p>Bookmark manager API that derives domains and tag counts as computed columns, served with FastAPI.</p>
+        <ul class="chips"><li>FastAPI serving</li><li>Computed columns &amp; UDFs</li></ul>
+        <p class="links"><a href="https://github.com/pierrebrunelle/pixeltable-bookmark-shelf">Source on GitHub</a> <a class="cs" href="https://codespaces.new/pierrebrunelle/pixeltable-bookmark-shelf?quickstart=1">Open in Codespaces</a> <span class="date">2026-09-22</span></p>
+      </div>
+    </article>
+    <article class="card" id="pixeltable-sticky-notes" data-features="serving computed">
+      <a href="https://github.com/pierrebrunelle/pixeltable-sticky-notes"><img src="https://raw.githubusercontent.com/pierrebrunelle/pixeltable-sticky-notes/main/.github/social-preview.png" alt="Sticky Notes API built with Pixeltable" width="1280" height="640" loading="lazy"></a>
+      <div class="body">
+        <h2><a href="https://github.com/pierrebrunelle/pixeltable-sticky-notes">Sticky Notes</a></h2>
+        <p>Sticky-notes REST API where titles and previews are computed columns, served with FastAPI.</p>
+        <ul class="chips"><li>FastAPI serving</li><li>Computed columns &amp; UDFs</li></ul>
+        <p class="links"><a href="https://github.com/pierrebrunelle/pixeltable-sticky-notes">Source on GitHub</a> <a class="cs" href="https://codespaces.new/pierrebrunelle/pixeltable-sticky-notes?quickstart=1">Open in Codespaces</a> <span class="date">2026-09-21</span></p>
+      </div>
+    </article>
+    </section>
+  </main>
+  <footer>
+    <p>Generated from the published app list. Every app is licensed under Apache-2.0. Pixeltable: <a href="https://pixeltable.com">pixeltable.com</a> · <a href="https://github.com/pixeltable/pixeltable">github.com/pixeltable/pixeltable</a> · <a href="https://docs.pixeltable.com">docs.pixeltable.com</a></p>
+  </footer>
+  <script>
+    (function () {
+      var feat = '', q = document.getElementById('q');
+      var btns = document.querySelectorAll('.filters button');
+      function apply() {
+        var s = q.value.toLowerCase();
+        document.querySelectorAll('.card').forEach(function (c) {
+          var okF = !feat || (' ' + c.dataset.features + ' ').indexOf(' ' + feat + ' ') >= 0;
+          var okQ = !s || c.textContent.toLowerCase().indexOf(s) >= 0;
+          c.hidden = !(okF && okQ);
+        });
+      }
+      btns.forEach(function (b) {
+        b.addEventListener('click', function () {
+          feat = b.dataset.f;
+          btns.forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+          apply();
+        });
+      });
+      q.addEventListener('input', apply);
+    })();
+  </script>
+</body>
+</html>

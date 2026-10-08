@@ -1,0 +1,514 @@
+[
+  {
+    "name": "Ferry Booking",
+    "repo": "pixeltable-ferry-bookings",
+    "url": "https://github.com/pierrebrunelle/pixeltable-ferry-bookings",
+    "pitch": "Ferry booking REST API: fares and deck classes as incremental computed columns, served with FastAPI",
+    "date": "2026-10-07",
+    "features": [
+      "serving",
+      "concurrency",
+      "data-rw",
+      "computed",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "python",
+      "multimodal",
+      "ai",
+      "data-infrastructure",
+      "fastapi",
+      "rest-api",
+      "booking-system",
+      "openapi",
+      "concurrency"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-ferry-bookings?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-ferry-bookings/main/.github/social-preview.png"
+  },
+  {
+    "name": "Pharmacy Refill",
+    "repo": "pixeltable-pharmacy-refills",
+    "url": "https://github.com/pierrebrunelle/pixeltable-pharmacy-refills",
+    "pitch": "Pharmacy refill queue API with HMAC-signed receipts keyed by a runtime secret and B-tree indexed lookups",
+    "date": "2026-10-06",
+    "features": [
+      "secrets",
+      "indexes",
+      "cli",
+      "serving",
+      "computed"
+    ],
+    "topics": [
+      "pixeltable",
+      "python",
+      "multimodal",
+      "ai",
+      "data-infrastructure",
+      "fastapi",
+      "secrets-management",
+      "healthcare",
+      "hmac",
+      "database-indexing"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-pharmacy-refills?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-pharmacy-refills/main/.github/social-preview.png"
+  },
+  {
+    "name": "Mural Registry",
+    "repo": "pixeltable-mural-registry",
+    "url": "https://github.com/pierrebrunelle/pixeltable-mural-registry",
+    "pitch": "Public-art mural registry API: wall photo uploads with thumbnails, grayscale copies and color tags",
+    "date": "2026-10-05",
+    "features": [
+      "media",
+      "concurrency",
+      "computed",
+      "serving",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "python",
+      "multimodal",
+      "ai",
+      "data-infrastructure",
+      "fastapi",
+      "computer-vision",
+      "street-art",
+      "image-processing",
+      "concurrency"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-mural-registry?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-mural-registry/main/.github/social-preview.png"
+  },
+  {
+    "name": "Greenhouse Operations",
+    "repo": "pixeltable-greenhouse-bays",
+    "url": "https://github.com/pierrebrunelle/pixeltable-greenhouse-bays",
+    "pitch": "Greenhouse operations API: bays, climate readings and plantings, sized for Pixeltable Cloud in pixeltable.toml",
+    "date": "2026-10-04",
+    "features": [
+      "toml",
+      "cloud",
+      "indexes",
+      "serving",
+      "computed"
+    ],
+    "topics": [
+      "pixeltable",
+      "python",
+      "multimodal",
+      "ai",
+      "data-infrastructure",
+      "fastapi",
+      "configuration",
+      "greenhouse",
+      "agtech",
+      "cloud"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-greenhouse-bays?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-greenhouse-bays/main/.github/social-preview.png"
+  },
+  {
+    "name": "Vineyard Estate",
+    "repo": "pixeltable-vineyard-blocks",
+    "url": "https://github.com/pierrebrunelle/pixeltable-vineyard-blocks",
+    "pitch": "Vineyard estate API: blocks, vines, harvests and tastings as four related Pixeltable tables with yield UDFs",
+    "date": "2026-10-03",
+    "features": [
+      "multitable",
+      "toml",
+      "serving",
+      "computed"
+    ],
+    "topics": [
+      "pixeltable",
+      "python",
+      "multimodal",
+      "ai",
+      "data-infrastructure",
+      "fastapi",
+      "data-pipeline",
+      "vineyard",
+      "agriculture",
+      "configuration"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-vineyard-blocks?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-vineyard-blocks/main/.github/social-preview.png"
+  },
+  {
+    "name": "Trail Permit",
+    "repo": "pixeltable-trail-permits",
+    "url": "https://github.com/pierrebrunelle/pixeltable-trail-permits",
+    "pitch": "Backcountry trail permit API with check-ins, permit bands and a full Pixeltable Cloud lifecycle",
+    "date": "2026-10-02",
+    "features": [
+      "cloud",
+      "toml",
+      "multitable",
+      "serving",
+      "computed"
+    ],
+    "topics": [
+      "pixeltable",
+      "python",
+      "multimodal",
+      "ai",
+      "data-infrastructure",
+      "fastapi",
+      "cloud",
+      "outdoors",
+      "permits",
+      "configuration"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-trail-permits?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-trail-permits/main/.github/social-preview.png"
+  },
+  {
+    "name": "Marina Berth Booking",
+    "repo": "pixeltable-marina-berths",
+    "url": "https://github.com/pierrebrunelle/pixeltable-marina-berths",
+    "pitch": "Marina berth booking API: string primary keys, binary columns, berth fees and stay bands as computed columns",
+    "date": "2026-10-01",
+    "features": [
+      "data-rw",
+      "toml",
+      "multitable",
+      "serving",
+      "computed"
+    ],
+    "topics": [
+      "pixeltable",
+      "python",
+      "multimodal",
+      "ai",
+      "data-infrastructure",
+      "fastapi",
+      "database",
+      "marina",
+      "reservations",
+      "configuration"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-marina-berths?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-marina-berths/main/.github/social-preview.png"
+  },
+  {
+    "name": "Museum Loans",
+    "repo": "pixeltable-museum-loans",
+    "url": "https://github.com/pierrebrunelle/pixeltable-museum-loans",
+    "pitch": "Museum object loan tracker API with overdue flags and urgency bands, explorable from the pxt CLI and dashboard",
+    "date": "2026-09-30",
+    "features": [
+      "cli",
+      "data-rw",
+      "cloud",
+      "serving",
+      "computed"
+    ],
+    "topics": [
+      "pixeltable",
+      "python",
+      "multimodal",
+      "ai",
+      "data-infrastructure",
+      "fastapi",
+      "cli",
+      "museum",
+      "collections-management",
+      "database"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-museum-loans?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-museum-loans/main/.github/social-preview.png"
+  },
+  {
+    "name": "Invoice Audit",
+    "repo": "pixeltable-invoice-audit",
+    "url": "https://github.com/pierrebrunelle/pixeltable-invoice-audit",
+    "pitch": "Invoice line-item audit API: a chain of computed columns from subtotal to tax, total and risk band",
+    "date": "2026-09-29",
+    "features": [
+      "computed",
+      "cli",
+      "toml",
+      "serving"
+    ],
+    "topics": [
+      "pixeltable",
+      "python",
+      "multimodal",
+      "ai",
+      "data-infrastructure",
+      "fastapi",
+      "udf",
+      "accounting",
+      "risk-scoring",
+      "cli"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-invoice-audit?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-invoice-audit/main/.github/social-preview.png"
+  },
+  {
+    "name": "Lab Accession",
+    "repo": "pixeltable-lab-accession",
+    "url": "https://github.com/pierrebrunelle/pixeltable-lab-accession",
+    "pitch": "Lab sample accession queue API: three related tables, parallel writers and racing claims",
+    "date": "2026-09-28",
+    "features": [
+      "concurrency",
+      "multitable",
+      "cloud",
+      "serving",
+      "computed",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "python",
+      "multimodal",
+      "ai",
+      "data-infrastructure",
+      "fastapi",
+      "concurrency",
+      "laboratory",
+      "work-queue",
+      "data-pipeline"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-lab-accession?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-lab-accession/main/.github/social-preview.png"
+  },
+  {
+    "name": "Fleet Telemetry",
+    "repo": "pixeltable-fleet-telemetry",
+    "url": "https://github.com/pierrebrunelle/pixeltable-fleet-telemetry",
+    "pitch": "Fleet telemetry API with B-tree indexed lookups and a chained severity/alert UDF pipeline",
+    "date": "2026-09-27",
+    "features": [
+      "indexes",
+      "computed",
+      "data-rw",
+      "serving"
+    ],
+    "topics": [
+      "pixeltable",
+      "python",
+      "multimodal",
+      "ai",
+      "data-infrastructure",
+      "fastapi",
+      "database-indexing",
+      "iot",
+      "telemetry",
+      "udf"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-fleet-telemetry?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-fleet-telemetry/main/.github/social-preview.png"
+  },
+  {
+    "name": "Webhook Vault",
+    "repo": "pixeltable-webhook-vault",
+    "url": "https://github.com/pierrebrunelle/pixeltable-webhook-vault",
+    "pitch": "Webhook registry API that HMAC-signs payloads with a secret from the environment, as computed columns",
+    "date": "2026-09-26",
+    "features": [
+      "secrets",
+      "toml",
+      "serving",
+      "computed"
+    ],
+    "topics": [
+      "pixeltable",
+      "python",
+      "multimodal",
+      "ai",
+      "data-infrastructure",
+      "fastapi",
+      "secrets-management",
+      "webhooks",
+      "hmac",
+      "configuration"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-webhook-vault?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-webhook-vault/main/.github/social-preview.png"
+  },
+  {
+    "name": "Travel Scrapbook",
+    "repo": "pixeltable-travel-scrapbook",
+    "url": "https://github.com/pierrebrunelle/pixeltable-travel-scrapbook",
+    "pitch": "Travel photo scrapbook API: image uploads, thumbnails and place tags as computed columns",
+    "date": "2026-09-26",
+    "features": [
+      "media",
+      "data-rw",
+      "serving",
+      "computed"
+    ],
+    "topics": [
+      "pixeltable",
+      "python",
+      "multimodal",
+      "ai",
+      "data-infrastructure",
+      "fastapi",
+      "computer-vision",
+      "image-processing",
+      "travel",
+      "database"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-travel-scrapbook?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-travel-scrapbook/main/.github/social-preview.png"
+  },
+  {
+    "name": "Plant Care",
+    "repo": "pixeltable-plant-care",
+    "url": "https://github.com/pierrebrunelle/pixeltable-plant-care",
+    "pitch": "Houseplant care API that turns soil moisture and watering history into care advice via computed columns",
+    "date": "2026-09-26",
+    "features": [
+      "serving",
+      "computed"
+    ],
+    "topics": [
+      "pixeltable",
+      "python",
+      "multimodal",
+      "ai",
+      "data-infrastructure",
+      "fastapi",
+      "rest-api",
+      "houseplants",
+      "reminders",
+      "openapi"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-plant-care?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-plant-care/main/.github/social-preview.png"
+  },
+  {
+    "name": "Coffee Journal",
+    "repo": "pixeltable-coffee-journal",
+    "url": "https://github.com/pierrebrunelle/pixeltable-coffee-journal",
+    "pitch": "Coffee tasting journal API: roast labels and tasting summaries as computed columns",
+    "date": "2026-09-25",
+    "features": [
+      "serving",
+      "cloud",
+      "computed"
+    ],
+    "topics": [
+      "pixeltable",
+      "python",
+      "multimodal",
+      "ai",
+      "data-infrastructure",
+      "fastapi",
+      "rest-api",
+      "coffee",
+      "tasting-notes",
+      "openapi"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-coffee-journal?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-coffee-journal/main/.github/social-preview.png"
+  },
+  {
+    "name": "Habit Tracker",
+    "repo": "pixeltable-habit-tracker",
+    "url": "https://github.com/pierrebrunelle/pixeltable-habit-tracker",
+    "pitch": "Habit tracker API with streak labels as computed columns, deployable to Pixeltable Cloud",
+    "date": "2026-09-24",
+    "features": [
+      "serving",
+      "cloud",
+      "computed"
+    ],
+    "topics": [
+      "pixeltable",
+      "python",
+      "multimodal",
+      "ai",
+      "data-infrastructure",
+      "fastapi",
+      "rest-api",
+      "habit-tracker",
+      "productivity",
+      "openapi"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-habit-tracker?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-habit-tracker/main/.github/social-preview.png"
+  },
+  {
+    "name": "Recipe Box",
+    "repo": "pixeltable-recipe-box",
+    "url": "https://github.com/pierrebrunelle/pixeltable-recipe-box",
+    "pitch": "Recipe box API with ingredient counts and quick-meal search as computed columns and queries",
+    "date": "2026-09-23",
+    "features": [
+      "serving",
+      "computed"
+    ],
+    "topics": [
+      "pixeltable",
+      "python",
+      "multimodal",
+      "ai",
+      "data-infrastructure",
+      "fastapi",
+      "rest-api",
+      "recipes",
+      "cooking",
+      "openapi"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-recipe-box?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-recipe-box/main/.github/social-preview.png"
+  },
+  {
+    "name": "Bookmark Shelf",
+    "repo": "pixeltable-bookmark-shelf",
+    "url": "https://github.com/pierrebrunelle/pixeltable-bookmark-shelf",
+    "pitch": "Bookmark manager API that derives domains and tag counts as computed columns, served with FastAPI",
+    "date": "2026-09-22",
+    "features": [
+      "serving",
+      "computed"
+    ],
+    "topics": [
+      "pixeltable",
+      "python",
+      "multimodal",
+      "ai",
+      "data-infrastructure",
+      "fastapi",
+      "rest-api",
+      "bookmarks",
+      "url-parsing",
+      "openapi"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-bookmark-shelf?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-bookmark-shelf/main/.github/social-preview.png"
+  },
+  {
+    "name": "Sticky Notes",
+    "repo": "pixeltable-sticky-notes",
+    "url": "https://github.com/pierrebrunelle/pixeltable-sticky-notes",
+    "pitch": "Sticky-notes REST API where titles and previews are computed columns, served with FastAPI",
+    "date": "2026-09-21",
+    "features": [
+      "serving",
+      "computed"
+    ],
+    "topics": [
+      "pixeltable",
+      "python",
+      "multimodal",
+      "ai",
+      "data-infrastructure",
+      "fastapi",
+      "rest-api",
+      "notes-app",
+      "openapi",
+      "udf"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-sticky-notes?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-sticky-notes/main/.github/social-preview.png"
+  }
+]
