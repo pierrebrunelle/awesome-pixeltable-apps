@@ -14,15 +14,15 @@
     ],
     "topics": [
       "pixeltable",
+      "pixeltable-example",
       "python",
-      "multimodal",
-      "ai",
-      "data-infrastructure",
-      "fastapi",
       "rest-api",
       "booking-system",
       "openapi",
-      "concurrency"
+      "concurrency",
+      "database",
+      "fastapi",
+      "multimodal"
     ],
     "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-ferry-bookings?quickstart=1",
     "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-ferry-bookings/main/.github/social-preview.png"
@@ -42,15 +42,15 @@
     ],
     "topics": [
       "pixeltable",
+      "pixeltable-example",
       "python",
-      "multimodal",
-      "ai",
-      "data-infrastructure",
-      "fastapi",
       "secrets-management",
       "healthcare",
       "hmac",
-      "database-indexing"
+      "database-indexing",
+      "cli",
+      "fastapi",
+      "multimodal"
     ],
     "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-pharmacy-refills?quickstart=1",
     "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-pharmacy-refills/main/.github/social-preview.png"
@@ -70,15 +70,15 @@
     ],
     "topics": [
       "pixeltable",
+      "pixeltable-example",
       "python",
-      "multimodal",
-      "ai",
-      "data-infrastructure",
-      "fastapi",
       "computer-vision",
       "street-art",
       "image-processing",
-      "concurrency"
+      "concurrency",
+      "udf",
+      "fastapi",
+      "multimodal"
     ],
     "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-mural-registry?quickstart=1",
     "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-mural-registry/main/.github/social-preview.png"
@@ -98,15 +98,15 @@
     ],
     "topics": [
       "pixeltable",
+      "pixeltable-example",
       "python",
-      "multimodal",
-      "ai",
-      "data-infrastructure",
-      "fastapi",
       "configuration",
       "greenhouse",
       "agtech",
-      "cloud"
+      "cloud",
+      "database-indexing",
+      "fastapi",
+      "multimodal"
     ],
     "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-greenhouse-bays?quickstart=1",
     "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-greenhouse-bays/main/.github/social-preview.png"
@@ -125,15 +125,15 @@
     ],
     "topics": [
       "pixeltable",
+      "pixeltable-example",
       "python",
-      "multimodal",
-      "ai",
-      "data-infrastructure",
-      "fastapi",
       "data-pipeline",
       "vineyard",
       "agriculture",
-      "configuration"
+      "configuration",
+      "rest-api",
+      "openapi",
+      "fastapi"
     ],
     "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-vineyard-blocks?quickstart=1",
     "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-vineyard-blocks/main/.github/social-preview.png"
@@ -153,15 +153,15 @@
     ],
     "topics": [
       "pixeltable",
+      "pixeltable-example",
       "python",
-      "multimodal",
-      "ai",
-      "data-infrastructure",
-      "fastapi",
       "cloud",
       "outdoors",
       "permits",
-      "configuration"
+      "configuration",
+      "data-pipeline",
+      "fastapi",
+      "multimodal"
     ],
     "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-trail-permits?quickstart=1",
     "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-trail-permits/main/.github/social-preview.png"
@@ -181,15 +181,15 @@
     ],
     "topics": [
       "pixeltable",
+      "pixeltable-example",
       "python",
-      "multimodal",
-      "ai",
-      "data-infrastructure",
-      "fastapi",
       "database",
       "marina",
       "reservations",
-      "configuration"
+      "configuration",
+      "data-pipeline",
+      "fastapi",
+      "multimodal"
     ],
     "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-marina-berths?quickstart=1",
     "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-marina-berths/main/.github/social-preview.png"
@@ -209,15 +209,15 @@
     ],
     "topics": [
       "pixeltable",
+      "pixeltable-example",
       "python",
-      "multimodal",
-      "ai",
-      "data-infrastructure",
-      "fastapi",
       "cli",
       "museum",
       "collections-management",
-      "database"
+      "database",
+      "cloud",
+      "fastapi",
+      "multimodal"
     ],
     "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-museum-loans?quickstart=1",
     "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-museum-loans/main/.github/social-preview.png"
@@ -236,15 +236,15 @@
     ],
     "topics": [
       "pixeltable",
+      "pixeltable-example",
       "python",
-      "multimodal",
-      "ai",
-      "data-infrastructure",
-      "fastapi",
       "udf",
       "accounting",
       "risk-scoring",
-      "cli"
+      "cli",
+      "configuration",
+      "fastapi",
+      "multimodal"
     ],
     "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-invoice-audit?quickstart=1",
     "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-invoice-audit/main/.github/social-preview.png"
@@ -265,15 +265,15 @@
     ],
     "topics": [
       "pixeltable",
+      "pixeltable-example",
       "python",
-      "multimodal",
-      "ai",
-      "data-infrastructure",
-      "fastapi",
       "concurrency",
       "laboratory",
       "work-queue",
-      "data-pipeline"
+      "data-pipeline",
+      "cloud",
+      "fastapi",
+      "multimodal"
     ],
     "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-lab-accession?quickstart=1",
     "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-lab-accession/main/.github/social-preview.png"
@@ -292,15 +292,15 @@
     ],
     "topics": [
       "pixeltable",
+      "pixeltable-example",
       "python",
-      "multimodal",
-      "ai",
-      "data-infrastructure",
-      "fastapi",
       "database-indexing",
       "iot",
       "telemetry",
-      "udf"
+      "udf",
+      "database",
+      "fastapi",
+      "multimodal"
     ],
     "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-fleet-telemetry?quickstart=1",
     "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-fleet-telemetry/main/.github/social-preview.png"
@@ -319,15 +319,15 @@
     ],
     "topics": [
       "pixeltable",
+      "pixeltable-example",
       "python",
-      "multimodal",
-      "ai",
-      "data-infrastructure",
-      "fastapi",
       "secrets-management",
       "webhooks",
       "hmac",
-      "configuration"
+      "configuration",
+      "fastapi",
+      "multimodal",
+      "ai"
     ],
     "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-webhook-vault?quickstart=1",
     "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-webhook-vault/main/.github/social-preview.png"
@@ -346,15 +346,15 @@
     ],
     "topics": [
       "pixeltable",
+      "pixeltable-example",
       "python",
-      "multimodal",
-      "ai",
-      "data-infrastructure",
-      "fastapi",
       "computer-vision",
       "image-processing",
       "travel",
-      "database"
+      "database",
+      "fastapi",
+      "multimodal",
+      "ai"
     ],
     "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-travel-scrapbook?quickstart=1",
     "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-travel-scrapbook/main/.github/social-preview.png"
@@ -371,15 +371,15 @@
     ],
     "topics": [
       "pixeltable",
+      "pixeltable-example",
       "python",
-      "multimodal",
-      "ai",
-      "data-infrastructure",
-      "fastapi",
       "rest-api",
       "houseplants",
       "reminders",
-      "openapi"
+      "openapi",
+      "udf",
+      "fastapi",
+      "multimodal"
     ],
     "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-plant-care?quickstart=1",
     "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-plant-care/main/.github/social-preview.png"
@@ -397,15 +397,15 @@
     ],
     "topics": [
       "pixeltable",
+      "pixeltable-example",
       "python",
-      "multimodal",
-      "ai",
-      "data-infrastructure",
-      "fastapi",
       "rest-api",
       "coffee",
       "tasting-notes",
-      "openapi"
+      "openapi",
+      "cloud",
+      "fastapi",
+      "multimodal"
     ],
     "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-coffee-journal?quickstart=1",
     "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-coffee-journal/main/.github/social-preview.png"
@@ -423,15 +423,15 @@
     ],
     "topics": [
       "pixeltable",
+      "pixeltable-example",
       "python",
-      "multimodal",
-      "ai",
-      "data-infrastructure",
-      "fastapi",
       "rest-api",
       "habit-tracker",
       "productivity",
-      "openapi"
+      "openapi",
+      "cloud",
+      "fastapi",
+      "multimodal"
     ],
     "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-habit-tracker?quickstart=1",
     "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-habit-tracker/main/.github/social-preview.png"
@@ -448,15 +448,15 @@
     ],
     "topics": [
       "pixeltable",
+      "pixeltable-example",
       "python",
-      "multimodal",
-      "ai",
-      "data-infrastructure",
-      "fastapi",
       "rest-api",
       "recipes",
       "cooking",
-      "openapi"
+      "openapi",
+      "udf",
+      "fastapi",
+      "multimodal"
     ],
     "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-recipe-box?quickstart=1",
     "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-recipe-box/main/.github/social-preview.png"
@@ -473,15 +473,15 @@
     ],
     "topics": [
       "pixeltable",
+      "pixeltable-example",
       "python",
-      "multimodal",
-      "ai",
-      "data-infrastructure",
-      "fastapi",
       "rest-api",
       "bookmarks",
       "url-parsing",
-      "openapi"
+      "openapi",
+      "udf",
+      "fastapi",
+      "multimodal"
     ],
     "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-bookmark-shelf?quickstart=1",
     "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-bookmark-shelf/main/.github/social-preview.png"
@@ -498,15 +498,15 @@
     ],
     "topics": [
       "pixeltable",
+      "pixeltable-example",
       "python",
-      "multimodal",
-      "ai",
-      "data-infrastructure",
-      "fastapi",
       "rest-api",
       "notes-app",
       "openapi",
-      "udf"
+      "udf",
+      "fastapi",
+      "multimodal",
+      "ai"
     ],
     "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-sticky-notes?quickstart=1",
     "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-sticky-notes/main/.github/social-preview.png"
