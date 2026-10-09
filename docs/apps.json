@@ -1,5 +1,33 @@
 [
   {
+    "name": "Climbing Route Topos",
+    "repo": "pixeltable-climbing-routes",
+    "url": "https://github.com/pierrebrunelle/pixeltable-climbing-routes",
+    "pitch": "Climbing-route topo registry API: photo uploads with thumbnails, grayscale copies, grade bands and index-backed crag lookups",
+    "date": "2026-10-09",
+    "features": [
+      "media",
+      "indexes",
+      "cli",
+      "serving",
+      "computed"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "computer-vision",
+      "climbing",
+      "image-processing",
+      "outdoor",
+      "database-indexing",
+      "cli",
+      "fastapi"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-climbing-routes?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-climbing-routes/main/.github/social-preview.png"
+  },
+  {
     "name": "Warehouse Pick Lists",
     "repo": "pixeltable-warehouse-picklists",
     "url": "https://github.com/pierrebrunelle/pixeltable-warehouse-picklists",
