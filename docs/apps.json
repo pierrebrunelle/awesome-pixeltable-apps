@@ -1,5 +1,32 @@
 [
   {
+    "name": "Forge Heat Cycles",
+    "repo": "pixeltable-forge-heats",
+    "url": "https://github.com/pierrebrunelle/pixeltable-forge-heats",
+    "pitch": "Forge heat-cycle registry API: B-tree indexes, chained risk UDFs, and parallel shop-floor writers",
+    "date": "2026-10-10",
+    "features": [
+      "indexes",
+      "concurrency",
+      "computed",
+      "serving"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "database-indexing",
+      "manufacturing",
+      "fastapi",
+      "btree",
+      "concurrency",
+      "udf",
+      "multimodal"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-forge-heats?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-forge-heats/main/.github/social-preview.png"
+  },
+  {
     "name": "Climbing Route Topos",
     "repo": "pixeltable-climbing-routes",
     "url": "https://github.com/pierrebrunelle/pixeltable-climbing-routes",
