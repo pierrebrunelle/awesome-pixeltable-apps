@@ -1,5 +1,31 @@
 [
   {
+    "name": "Harbor Radio Signals",
+    "repo": "pixeltable-harbor-signals",
+    "url": "https://github.com/pierrebrunelle/pixeltable-harbor-signals",
+    "pitch": "Harbor radio signal media pipeline: audio normalize/fade, vision box overlays, and StringSplitter sentence views",
+    "date": "2026-10-11",
+    "features": [
+      "media",
+      "computed",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "multimodal",
+      "audio-processing",
+      "computer-vision",
+      "maritime",
+      "ffmpeg",
+      "ai",
+      "data-infrastructure"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-harbor-signals?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-harbor-signals/main/.github/social-preview.png"
+  },
+  {
     "name": "Forge Heat Cycles",
     "repo": "pixeltable-forge-heats",
     "url": "https://github.com/pierrebrunelle/pixeltable-forge-heats",
