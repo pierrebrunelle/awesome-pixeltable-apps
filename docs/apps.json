@@ -1,5 +1,30 @@
 [
   {
+    "name": "Orchard Harvest Crates",
+    "repo": "pixeltable-orchard-crates",
+    "url": "https://github.com/pierrebrunelle/pixeltable-orchard-crates",
+    "pitch": "Batch ETL for orchard harvest crates: CSV import/export, packing math, and moisture on_error handling",
+    "date": "2026-10-12",
+    "features": [
+      "computed",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "etl",
+      "agriculture",
+      "data-pipeline",
+      "csv-import",
+      "multimodal",
+      "ai",
+      "data-infrastructure"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-orchard-crates?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-orchard-crates/main/.github/social-preview.png"
+  },
+  {
     "name": "Harbor Radio Signals",
     "repo": "pixeltable-harbor-signals",
     "url": "https://github.com/pierrebrunelle/pixeltable-harbor-signals",
