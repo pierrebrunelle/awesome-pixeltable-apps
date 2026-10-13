@@ -1,5 +1,31 @@
 [
   {
+    "name": "Apiary Advisor",
+    "repo": "pixeltable-apiary-advisor",
+    "url": "https://github.com/pierrebrunelle/pixeltable-apiary-advisor",
+    "pitch": "RAG + tool-calling beekeeping advisor: custom embedding index, table-as-UDF agent pipeline, expr_udf mite math",
+    "date": "2026-10-13",
+    "features": [
+      "agents",
+      "computed",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "rag",
+      "beekeeping",
+      "llm",
+      "vector-search",
+      "ai-agents",
+      "multimodal",
+      "ai"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-apiary-advisor?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-apiary-advisor/main/.github/social-preview.png"
+  },
+  {
     "name": "Orchard Harvest Crates",
     "repo": "pixeltable-orchard-crates",
     "url": "https://github.com/pierrebrunelle/pixeltable-orchard-crates",
