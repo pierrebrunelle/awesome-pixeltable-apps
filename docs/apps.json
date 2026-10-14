@@ -1,5 +1,30 @@
 [
   {
+    "name": "archery range",
+    "repo": "pixeltable-archery-lanes",
+    "url": "https://github.com/pierrebrunelle/pixeltable-archery-lanes",
+    "pitch": "Migrate archery-range scoring sessions from legacy JSON into Pixeltable, score with date-aware computed columns, and run as an incremental scheduled pipeline",
+    "date": "2026-10-14",
+    "features": [
+      "computed",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "data-pipeline",
+      "archery",
+      "sports-analytics",
+      "etl",
+      "incremental-ingest",
+      "multimodal",
+      "ai"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-archery-lanes?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-archery-lanes/main/.github/social-preview.png"
+  },
+  {
     "name": "Apiary Advisor",
     "repo": "pixeltable-apiary-advisor",
     "url": "https://github.com/pierrebrunelle/pixeltable-apiary-advisor",
