@@ -1,5 +1,32 @@
 [
   {
+    "name": "Research Agent Memory",
+    "repo": "pixeltable-research-agent-memory",
+    "url": "https://github.com/pierrebrunelle/pixeltable-research-agent-memory",
+    "pitch": "Durable, searchable long-term memory for an AI research assistant: per-user semantic recall, retrieval_udf lookups, tool calling and memory consolidation with custom aggregates",
+    "date": "2026-10-15",
+    "features": [
+      "agents",
+      "computed",
+      "indexes",
+      "media"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "ai-agents",
+      "rag",
+      "llm-memory",
+      "openai",
+      "vector-search",
+      "multimodal",
+      "ai"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-research-agent-memory?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-research-agent-memory/main/.github/social-preview.png"
+  },
+  {
     "name": "archery range",
     "repo": "pixeltable-archery-lanes",
     "url": "https://github.com/pierrebrunelle/pixeltable-archery-lanes",
