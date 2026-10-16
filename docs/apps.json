@@ -1,5 +1,32 @@
 [
   {
+    "name": "Solar Panel Inspection",
+    "repo": "pixeltable-solar-inspection-labels",
+    "url": "https://github.com/pierrebrunelle/pixeltable-solar-inspection-labels",
+    "pitch": "Labeling round-trip for solar panel inspection images: auto-detect hot spots, export the review queue to SQL, correct labels, re-import, diff and export COCO",
+    "date": "2026-10-16",
+    "features": [
+      "versioning",
+      "computed",
+      "indexes",
+      "media"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "data-labeling",
+      "solar-energy",
+      "computer-vision",
+      "human-in-the-loop",
+      "data-versioning",
+      "multimodal",
+      "ai"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-solar-inspection-labels?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-solar-inspection-labels/main/.github/social-preview.png"
+  },
+  {
     "name": "Research Agent Memory",
     "repo": "pixeltable-research-agent-memory",
     "url": "https://github.com/pierrebrunelle/pixeltable-research-agent-memory",
