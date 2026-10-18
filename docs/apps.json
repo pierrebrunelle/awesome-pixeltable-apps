@@ -1,5 +1,33 @@
 [
   {
+    "name": "Bus Depot Operations",
+    "repo": "pixeltable-bus-depot-dashboard",
+    "url": "https://github.com/pierrebrunelle/pixeltable-bus-depot-dashboard",
+    "pitch": "Bus depot operations dashboard: on-time rate and p90 delay per depot and route from custom UDAs, JSON map/filter/sort over per-stop delays, distinct() lookups, a windowed running total and a data-health check for telemetry that failed to parse",
+    "date": "2026-10-18",
+    "features": [
+      "cli",
+      "computed",
+      "indexes",
+      "toml",
+      "cloud"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "cli",
+      "analytics",
+      "public-transit",
+      "dashboard",
+      "observability",
+      "udf",
+      "database-indexing"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-bus-depot-dashboard?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-bus-depot-dashboard/main/.github/social-preview.png"
+  },
+  {
     "name": "Podcast Transcript Search",
     "repo": "pixeltable-podcast-transcript-search",
     "url": "https://github.com/pierrebrunelle/pixeltable-podcast-transcript-search",
