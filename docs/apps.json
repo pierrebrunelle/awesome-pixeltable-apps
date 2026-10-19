@@ -1,5 +1,33 @@
 [
   {
+    "name": "Cooking-Class Video Moment Search",
+    "repo": "pixeltable-cooking-video-search",
+    "url": "https://github.com/pierrebrunelle/pixeltable-cooking-video-search",
+    "pitch": "Video moment search API for cooking classes: frame sampling, vision captions, semantic search that returns the mm:ss moment, scene detection and teaser clips",
+    "date": "2026-10-19",
+    "features": [
+      "media",
+      "indexes",
+      "llm",
+      "serving",
+      "computed"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "video-processing",
+      "video-search",
+      "semantic-search",
+      "video-embeddings",
+      "cooking",
+      "multimodal",
+      "database-indexing"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-cooking-video-search?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-cooking-video-search/main/.github/social-preview.png"
+  },
+  {
     "name": "Bus Depot Operations",
     "repo": "pixeltable-bus-depot-dashboard",
     "url": "https://github.com/pierrebrunelle/pixeltable-bus-depot-dashboard",
