@@ -1,5 +1,33 @@
 [
   {
+    "name": "Hot-Air Balloon Flight Ops",
+    "repo": "pixeltable-balloon-flight-ops",
+    "url": "https://github.com/pierrebrunelle/pixeltable-balloon-flight-ops",
+    "pitch": "Hot-air balloon flight log CLI: idempotent batch imports keyed by content hashes, computed burn/propane/payload columns, pxt revert and pxt rename for recovery, and a fingerprint command that rebuilds the cloud deploy fingerprint with Pixeltable's public hashing helpers",
+    "date": "2026-10-20",
+    "features": [
+      "cli",
+      "computed",
+      "indexes",
+      "toml",
+      "cloud"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "cli",
+      "hot-air-balloon",
+      "idempotency",
+      "content-hashing",
+      "udf",
+      "database-indexing",
+      "configuration"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-balloon-flight-ops?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-balloon-flight-ops/main/.github/social-preview.png"
+  },
+  {
     "name": "Cooking-Class Video Moment Search",
     "repo": "pixeltable-cooking-video-search",
     "url": "https://github.com/pierrebrunelle/pixeltable-cooking-video-search",
