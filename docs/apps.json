@@ -1,5 +1,34 @@
 [
   {
+    "name": "Delivery-Driver Incident Intake",
+    "repo": "pixeltable-driver-incident-intake",
+    "url": "https://github.com/pierrebrunelle/pixeltable-driver-incident-intake",
+    "pitch": "Incident intake API for delivery drivers: voice note + photo upload, transcription, Pydantic-validated structured records from a vision model, async dispatch routing and SQL export",
+    "date": "2026-10-21",
+    "features": [
+      "serving",
+      "computed",
+      "concurrency",
+      "data-rw",
+      "indexes",
+      "media"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "rest-api",
+      "structured-output",
+      "pydantic",
+      "speech-to-text",
+      "multimodal",
+      "openapi",
+      "udf"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-driver-incident-intake?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-driver-incident-intake/main/.github/social-preview.png"
+  },
+  {
     "name": "Hot-Air Balloon Flight Ops",
     "repo": "pixeltable-balloon-flight-ops",
     "url": "https://github.com/pierrebrunelle/pixeltable-balloon-flight-ops",
