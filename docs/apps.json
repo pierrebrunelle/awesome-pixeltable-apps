@@ -1,5 +1,33 @@
 [
   {
+    "name": "Bakery Order Ledger",
+    "repo": "pixeltable-bakery-order-ledger",
+    "url": "https://github.com/pierrebrunelle/pixeltable-bakery-order-ledger",
+    "pitch": "Bakery order ledger with a built-in audit trail: every edit is a Pixeltable table version, so you can read the ledger as of any version, diff two versions by order, restore a deleted order, freeze end-of-day snapshots and roll back a bad bulk edit",
+    "date": "2026-10-22",
+    "features": [
+      "versioning",
+      "computed",
+      "cli",
+      "cloud",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "data-versioning",
+      "audit-trail",
+      "time-travel",
+      "bakery",
+      "udf",
+      "cli",
+      "cloud"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-bakery-order-ledger?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-bakery-order-ledger/main/.github/social-preview.png"
+  },
+  {
     "name": "Delivery-Driver Incident Intake",
     "repo": "pixeltable-driver-incident-intake",
     "url": "https://github.com/pierrebrunelle/pixeltable-driver-incident-intake",
