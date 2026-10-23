@@ -1,5 +1,32 @@
 [
   {
+    "name": "Marketplace Listing Photo & Video Moderation",
+    "repo": "pixeltable-listing-photo-moderation",
+    "url": "https://github.com/pierrebrunelle/pixeltable-listing-photo-moderation",
+    "pitch": "Trust-and-safety pipeline for marketplace listings: text moderation, a gpt-4o-mini vision verdict with boxes, box post-processing and mAP against human labels, per-frame video checks and voice-over transcripts scanned for off-platform contact",
+    "date": "2026-10-23",
+    "features": [
+      "media",
+      "llm",
+      "computed",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "computer-vision",
+      "multimodal",
+      "content-moderation",
+      "trust-and-safety",
+      "object-detection",
+      "video-moderation",
+      "llm"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-listing-photo-moderation?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-listing-photo-moderation/main/.github/social-preview.png"
+  },
+  {
     "name": "Bakery Order Ledger",
     "repo": "pixeltable-bakery-order-ledger",
     "url": "https://github.com/pierrebrunelle/pixeltable-bakery-order-ledger",
