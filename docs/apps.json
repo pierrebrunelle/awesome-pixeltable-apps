@@ -1,5 +1,31 @@
 [
   {
+    "name": "Theater Rehearsal Call Board",
+    "repo": "pixeltable-rehearsal-call-board",
+    "url": "https://github.com/pierrebrunelle/pixeltable-rehearsal-call-board",
+    "pitch": "Stage-management dashboard for a Twelfth Night rehearsal period: call hours, punctuality, absences and department notes from joins and JSON list functions, plus OpenTelemetry traces of every Pixeltable operation stored back in a table",
+    "date": "2026-10-24",
+    "features": [
+      "cli",
+      "computed",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "observability",
+      "analytics",
+      "theater",
+      "stage-management",
+      "rehearsal-schedule",
+      "tracing",
+      "multimodal"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-rehearsal-call-board?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-rehearsal-call-board/main/.github/social-preview.png"
+  },
+  {
     "name": "Marketplace Listing Photo & Video Moderation",
     "repo": "pixeltable-listing-photo-moderation",
     "url": "https://github.com/pierrebrunelle/pixeltable-listing-photo-moderation",
