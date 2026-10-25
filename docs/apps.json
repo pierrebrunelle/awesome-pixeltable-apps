@@ -1,5 +1,33 @@
 [
   {
+    "name": "Procurement Approval Agent",
+    "repo": "pixeltable-procurement-agent-audit",
+    "url": "https://github.com/pierrebrunelle/pixeltable-procurement-agent-audit",
+    "pitch": "Procurement approval agent whose every decision is versioned: read the agent's verdicts as of any table version, see why one request was decided the way it was across policy changes, roll back a bad policy rollout with revert() and freeze a quarter-close snapshot",
+    "date": "2026-10-25",
+    "features": [
+      "versioning",
+      "llm",
+      "computed",
+      "cli",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "data-versioning",
+      "audit-trail",
+      "time-travel",
+      "ai-agents",
+      "procurement",
+      "llm",
+      "udf"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-procurement-agent-audit?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-procurement-agent-audit/main/.github/social-preview.png"
+  },
+  {
     "name": "Theater Rehearsal Call Board",
     "repo": "pixeltable-rehearsal-call-board",
     "url": "https://github.com/pierrebrunelle/pixeltable-rehearsal-call-board",
