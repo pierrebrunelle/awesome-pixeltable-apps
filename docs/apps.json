@@ -1,5 +1,30 @@
 [
   {
+    "name": "Observatory Night Log",
+    "repo": "pixeltable-observatory-night-log",
+    "url": "https://github.com/pierrebrunelle/pixeltable-observatory-night-log",
+    "pitch": "Migrate a messy legacy observatory night log CSV into Pixeltable without losing a row: parse coordinates and photometry as computed columns, keep each failed parse as a per-column error, fix the source values and recompute only the failed cells",
+    "date": "2026-10-26",
+    "features": [
+      "computed",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "etl",
+      "astronomy",
+      "csv",
+      "udf",
+      "multimodal",
+      "ai",
+      "data-infrastructure"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-observatory-night-log?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-observatory-night-log/main/.github/social-preview.png"
+  },
+  {
     "name": "Procurement Approval Agent",
     "repo": "pixeltable-procurement-agent-audit",
     "url": "https://github.com/pierrebrunelle/pixeltable-procurement-agent-audit",
