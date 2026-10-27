@@ -1,5 +1,33 @@
 [
   {
+    "name": "equipment manuals",
+    "repo": "pixeltable-equipment-manual-chat",
+    "url": "https://github.com/pierrebrunelle/pixeltable-equipment-manual-chat",
+    "pitch": "Chat-with-your-PDFs API for equipment manuals: upload PDF or Markdown manuals, page-aware chunking, an embedding index, and cited gpt-4o-mini answers from one FastAPIRouter",
+    "date": "2026-10-27",
+    "features": [
+      "serving",
+      "concurrency",
+      "computed",
+      "indexes",
+      "media"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "rest-api",
+      "rag",
+      "chat-with-pdf",
+      "embeddings",
+      "document-chunking",
+      "openapi",
+      "concurrency"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-equipment-manual-chat?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-equipment-manual-chat/main/.github/social-preview.png"
+  },
+  {
     "name": "Observatory Night Log",
     "repo": "pixeltable-observatory-night-log",
     "url": "https://github.com/pierrebrunelle/pixeltable-observatory-night-log",
