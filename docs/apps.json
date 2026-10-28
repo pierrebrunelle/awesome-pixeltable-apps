@@ -1,5 +1,31 @@
 [
   {
+    "name": "Chess Tournament Broadcast",
+    "repo": "pixeltable-chess-broadcast-scenes",
+    "url": "https://github.com/pierrebrunelle/pixeltable-chess-broadcast-scenes",
+    "pitch": "Turn chess tournament broadcast recordings into scenes, keyframes, per-shot frames, the final board of every game and highlight clips, with every step a Pixeltable computed column or view",
+    "date": "2026-10-28",
+    "features": [
+      "media",
+      "computed",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "multimodal",
+      "chess",
+      "video",
+      "broadcast",
+      "udf",
+      "ai",
+      "data-infrastructure"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-chess-broadcast-scenes?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-chess-broadcast-scenes/main/.github/social-preview.png"
+  },
+  {
     "name": "equipment manuals",
     "repo": "pixeltable-equipment-manual-chat",
     "url": "https://github.com/pierrebrunelle/pixeltable-equipment-manual-chat",
