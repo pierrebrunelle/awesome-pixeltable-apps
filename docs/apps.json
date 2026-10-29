@@ -1,5 +1,31 @@
 [
   {
+    "name": "high-school physics exams",
+    "repo": "pixeltable-physics-exam-question-bank",
+    "url": "https://github.com/pierrebrunelle/pixeltable-physics-exam-question-bank",
+    "pitch": "Turn physics chapter PDFs into a validated multiple-choice question bank: page-aware splitting, gpt-4o-mini with a strict JSON schema, Pydantic validation, one row per question, JSON export",
+    "date": "2026-10-29",
+    "features": [
+      "computed",
+      "indexes",
+      "media"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "etl",
+      "question-generation",
+      "education",
+      "pdf",
+      "pydantic",
+      "openai",
+      "multimodal"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-physics-exam-question-bank?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-physics-exam-question-bank/main/.github/social-preview.png"
+  },
+  {
     "name": "Chess Tournament Broadcast",
     "repo": "pixeltable-chess-broadcast-scenes",
     "url": "https://github.com/pierrebrunelle/pixeltable-chess-broadcast-scenes",
