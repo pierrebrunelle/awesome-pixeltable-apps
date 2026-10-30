@@ -1,5 +1,31 @@
 [
   {
+    "name": "Rail Yard Switch Inspection",
+    "repo": "pixeltable-rail-switch-inspection",
+    "url": "https://github.com/pierrebrunelle/pixeltable-rail-switch-inspection",
+    "pitch": "Inspect rail yard switch throws from trackside video: keyframe-accurate clips, blade position per clip, a vision-model note with semantic search, and switch-motor run times split from the audio at its silences, all as Pixeltable computed columns and views",
+    "date": "2026-10-30",
+    "features": [
+      "media",
+      "computed",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "multimodal",
+      "railway",
+      "computer-vision",
+      "openai",
+      "ai",
+      "data-infrastructure",
+      "computed-columns"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-rail-switch-inspection?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-rail-switch-inspection/main/.github/social-preview.png"
+  },
+  {
     "name": "high-school physics exams",
     "repo": "pixeltable-physics-exam-question-bank",
     "url": "https://github.com/pierrebrunelle/pixeltable-physics-exam-question-bank",
