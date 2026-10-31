@@ -1,5 +1,32 @@
 [
   {
+    "name": "Bike Repair Guides",
+    "repo": "pixeltable-bike-repair-rag",
+    "url": "https://github.com/pierrebrunelle/pixeltable-bike-repair-rag",
+    "pitch": "A retrieval-augmented bike repair assistant with no LangChain, LlamaIndex or vector database: Markdown guides split by heading, an embedding index, @pxt.query retrieval tools and a Claude tool-calling agent that answers with citations, all as Pixeltable tables, views and computed columns",
+    "date": "2026-10-31",
+    "features": [
+      "agents",
+      "computed",
+      "indexes",
+      "media"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "rag",
+      "llm",
+      "anthropic",
+      "retrieval-augmented-generation",
+      "langchain-alternative",
+      "ai-agents",
+      "multimodal"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-bike-repair-rag?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-bike-repair-rag/main/.github/social-preview.png"
+  },
+  {
     "name": "Rail Yard Switch Inspection",
     "repo": "pixeltable-rail-switch-inspection",
     "url": "https://github.com/pierrebrunelle/pixeltable-rail-switch-inspection",
