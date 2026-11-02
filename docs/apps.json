@@ -1,5 +1,31 @@
 [
   {
+    "name": "Vintage Poster Catalog",
+    "repo": "pixeltable-vintage-poster-search",
+    "url": "https://github.com/pierrebrunelle/pixeltable-vintage-poster-search",
+    "pitch": "A searchable vintage poster catalog where the images, the metadata, the sales and two CLIP vector indexes live in Pixeltable tables: text-to-image, image-to-image and filtered vector search plus joins, with no S3 bucket, metadata database or vector store to keep in sync",
+    "date": "2026-11-02",
+    "features": [
+      "computed",
+      "indexes",
+      "media"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "etl",
+      "clip",
+      "image-search",
+      "pgvector-alternative",
+      "vector-database",
+      "multimodal",
+      "ai"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-vintage-poster-search?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-vintage-poster-search/main/.github/social-preview.png"
+  },
+  {
     "name": "Library Hold Queues",
     "repo": "pixeltable-library-holds-cli",
     "url": "https://github.com/pierrebrunelle/pixeltable-library-holds-cli",
