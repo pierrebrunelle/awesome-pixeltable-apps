@@ -1,5 +1,31 @@
 [
   {
+    "name": "Wildlife Camera Traps",
+    "repo": "pixeltable-camera-trap-events",
+    "url": "https://github.com/pierrebrunelle/pixeltable-camera-trap-events",
+    "pitch": "Split trail-camera recordings into trigger events at their own motion-sensor times, grab the middle frame of each event and name what triggered the camera with YOLOX object detection, all as Pixeltable computed columns and views",
+    "date": "2026-11-03",
+    "features": [
+      "media",
+      "computed",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "multimodal",
+      "yolox",
+      "camera-trap",
+      "wildlife",
+      "video",
+      "udf",
+      "ai"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-camera-trap-events?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-camera-trap-events/main/.github/social-preview.png"
+  },
+  {
     "name": "Vintage Poster Catalog",
     "repo": "pixeltable-vintage-poster-search",
     "url": "https://github.com/pierrebrunelle/pixeltable-vintage-poster-search",
