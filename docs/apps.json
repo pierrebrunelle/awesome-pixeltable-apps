@@ -1,5 +1,31 @@
 [
   {
+    "name": "Coral Reef Survey Photos",
+    "repo": "pixeltable-coral-reef-label-roundtrip",
+    "url": "https://github.com/pierrebrunelle/pixeltable-coral-reef-label-roundtrip",
+    "pitch": "Segment coral-reef survey photos, send the model's boxes to Label Studio as pre-annotations, re-import the reviewed labels and diff them against the model, with COCO and LanceDB exports, all as Pixeltable tables and computed columns",
+    "date": "2026-11-04",
+    "features": [
+      "computed",
+      "media",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "data-labeling",
+      "label-studio",
+      "coco",
+      "lancedb",
+      "coral-reef",
+      "image-segmentation",
+      "udf"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-coral-reef-label-roundtrip?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-coral-reef-label-roundtrip/main/.github/social-preview.png"
+  },
+  {
     "name": "Wildlife Camera Traps",
     "repo": "pixeltable-camera-trap-events",
     "url": "https://github.com/pierrebrunelle/pixeltable-camera-trap-events",
