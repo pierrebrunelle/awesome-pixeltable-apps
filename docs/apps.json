@@ -1,5 +1,31 @@
 [
   {
+    "name": "youth soccer match recordings",
+    "repo": "pixeltable-youth-soccer-ingest",
+    "url": "https://github.com/pierrebrunelle/pixeltable-youth-soccer-ingest",
+    "pitch": "Ingest youth soccer match videos on a schedule with timezone-aware kickoffs and highlight clips",
+    "date": "2026-11-06",
+    "features": [
+      "computed",
+      "indexes",
+      "media"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "data-pipeline",
+      "soccer",
+      "youth-sports",
+      "video-ingestion",
+      "ffmpeg",
+      "cron",
+      "multimodal"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-youth-soccer-ingest?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-youth-soccer-ingest/main/.github/social-preview.png"
+  },
+  {
     "name": "Ski-Lift Pass Gates",
     "repo": "pixeltable-ski-lift-pass-cli",
     "url": "https://github.com/pierrebrunelle/pixeltable-ski-lift-pass-cli",
