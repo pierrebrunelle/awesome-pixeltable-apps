@@ -1,5 +1,30 @@
 [
   {
+    "name": "violin workshop play-test recordings",
+    "repo": "pixeltable-violin-playtest-audio",
+    "url": "https://github.com/pierrebrunelle/pixeltable-violin-playtest-audio",
+    "pitch": "Split violin play-test recordings into silence-aware chunks, transcribe luthier voice notes with WhisperX, and evolve the schema safely",
+    "date": "2026-11-07",
+    "features": [
+      "computed",
+      "media"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "multimodal",
+      "violin",
+      "luthier",
+      "speech-to-text",
+      "media-pipeline",
+      "ai",
+      "data-infrastructure"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-violin-playtest-audio?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-violin-playtest-audio/main/.github/social-preview.png"
+  },
+  {
     "name": "youth soccer match recordings",
     "repo": "pixeltable-youth-soccer-ingest",
     "url": "https://github.com/pierrebrunelle/pixeltable-youth-soccer-ingest",
