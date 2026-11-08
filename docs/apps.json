@@ -1,5 +1,31 @@
 [
   {
+    "name": "static-site generator source tree",
+    "repo": "pixeltable-static-site-code-rag",
+    "url": "https://github.com/pierrebrunelle/pixeltable-static-site-code-rag",
+    "pitch": "A CLI that answers questions about a Git checkout of a static-site generator using Pixeltable sentence chunks and embeddings",
+    "date": "2026-11-08",
+    "features": [
+      "cli",
+      "computed",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "cli",
+      "static-site-generator",
+      "sentence-chunking",
+      "lancedb",
+      "spacy",
+      "argparse",
+      "multimodal"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-static-site-code-rag?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-static-site-code-rag/main/.github/social-preview.png"
+  },
+  {
     "name": "violin workshop play-test recordings",
     "repo": "pixeltable-violin-playtest-audio",
     "url": "https://github.com/pierrebrunelle/pixeltable-violin-playtest-audio",
