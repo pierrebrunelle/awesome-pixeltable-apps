@@ -1,5 +1,32 @@
 [
   {
+    "name": "recording studio sessions",
+    "repo": "pixeltable-studio-session-agent",
+    "url": "https://github.com/pierrebrunelle/pixeltable-studio-session-agent",
+    "pitch": "A recording-studio assistant agent that answers from Word session sheets, remembers client preferences, and calls tools, built on Pixeltable tables",
+    "date": "2026-11-09",
+    "features": [
+      "agents",
+      "computed",
+      "indexes",
+      "media"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "rag",
+      "recording-studio",
+      "audio-engineering",
+      "docx",
+      "markitdown",
+      "ai-agents",
+      "multimodal"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-studio-session-agent?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-studio-session-agent/main/.github/social-preview.png"
+  },
+  {
     "name": "static-site generator source tree",
     "repo": "pixeltable-static-site-code-rag",
     "url": "https://github.com/pierrebrunelle/pixeltable-static-site-code-rag",
