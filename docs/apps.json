@@ -1,5 +1,31 @@
 [
   {
+    "name": "tax-help FAQ bot",
+    "repo": "pixeltable-tax-faq-rag-eval",
+    "url": "https://github.com/pierrebrunelle/pixeltable-tax-faq-rag-eval",
+    "pitch": "A versioned RAG evaluation harness with an LLM judge for a tax-help FAQ bot, built on Pixeltable tables",
+    "date": "2026-11-10",
+    "features": [
+      "versioning",
+      "computed",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "data-versioning",
+      "rag",
+      "llm-as-a-judge",
+      "evaluation",
+      "tax-faq",
+      "version-control",
+      "multimodal"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-tax-faq-rag-eval?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-tax-faq-rag-eval/main/.github/social-preview.png"
+  },
+  {
     "name": "recording studio sessions",
     "repo": "pixeltable-studio-session-agent",
     "url": "https://github.com/pierrebrunelle/pixeltable-studio-session-agent",
