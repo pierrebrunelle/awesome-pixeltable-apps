@@ -1,5 +1,31 @@
 [
   {
+    "name": "Glacier station melt",
+    "repo": "pixeltable-glacier-melt-dashboard",
+    "url": "https://github.com/pierrebrunelle/pixeltable-glacier-melt-dashboard",
+    "pitch": "A static melt dashboard for glacier monitoring stations, built from JSON stake readings with Pixeltable's built-in array and aggregate functions",
+    "date": "2026-11-11",
+    "features": [
+      "cli",
+      "computed",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "analytics",
+      "glacier",
+      "climate-data",
+      "sensor-data",
+      "group-by",
+      "reporting",
+      "observability"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-glacier-melt-dashboard?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-glacier-melt-dashboard/main/.github/social-preview.png"
+  },
+  {
     "name": "tax-help FAQ bot",
     "repo": "pixeltable-tax-faq-rag-eval",
     "url": "https://github.com/pierrebrunelle/pixeltable-tax-faq-rag-eval",
