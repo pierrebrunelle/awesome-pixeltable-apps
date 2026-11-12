@@ -1,5 +1,30 @@
 [
   {
+    "name": "autonomous lawnmower runs",
+    "repo": "pixeltable-lawnmower-failure-clips",
+    "url": "https://github.com/pierrebrunelle/pixeltable-lawnmower-failure-clips",
+    "pitch": "Cut robot-mower camera runs into 3-second clips, label failures and mine look-alike failure clips with CLIP, all in Pixeltable",
+    "date": "2026-11-12",
+    "features": [
+      "computed",
+      "media"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "multimodal",
+      "robotics",
+      "failure-mining",
+      "computer-vision",
+      "media-pipeline",
+      "ai",
+      "data-infrastructure"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-lawnmower-failure-clips?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-lawnmower-failure-clips/main/.github/social-preview.png"
+  },
+  {
     "name": "Glacier station melt",
     "repo": "pixeltable-glacier-melt-dashboard",
     "url": "https://github.com/pierrebrunelle/pixeltable-glacier-melt-dashboard",
