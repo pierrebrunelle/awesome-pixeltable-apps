@@ -1,5 +1,31 @@
 [
   {
+    "name": "tailor alterations",
+    "repo": "pixeltable-tailor-fitting-labels",
+    "url": "https://github.com/pierrebrunelle/pixeltable-tailor-fitting-labels",
+    "pitch": "Review tailor fitting photos in FiftyOne and round-trip the labels back into versioned Pixeltable tables",
+    "date": "2026-11-13",
+    "features": [
+      "versioning",
+      "computed",
+      "media"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "data-labeling",
+      "tailoring",
+      "computer-vision",
+      "human-in-the-loop",
+      "data-versioning",
+      "multimodal",
+      "ai"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-tailor-fitting-labels?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-tailor-fitting-labels/main/.github/social-preview.png"
+  },
+  {
     "name": "autonomous lawnmower runs",
     "repo": "pixeltable-lawnmower-failure-clips",
     "url": "https://github.com/pierrebrunelle/pixeltable-lawnmower-failure-clips",
