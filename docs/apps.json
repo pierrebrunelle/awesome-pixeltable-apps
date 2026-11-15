@@ -1,5 +1,33 @@
 [
   {
+    "name": "neighborhood lost-and-found",
+    "repo": "pixeltable-lost-and-found-uploads",
+    "url": "https://github.com/pierrebrunelle/pixeltable-lost-and-found-uploads",
+    "pitch": "Neighborhood lost-and-found API: multipart photo and video uploads, thumbnails to a configurable media destination, gpt-4o-mini vision captions, and CLIP search by text or by photo from one FastAPIRouter",
+    "date": "2026-11-14",
+    "features": [
+      "serving",
+      "toml",
+      "computed",
+      "indexes",
+      "media"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "rest-api",
+      "lost-and-found",
+      "multipart-upload",
+      "clip",
+      "image-search",
+      "openapi",
+      "configuration"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-lost-and-found-uploads?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-lost-and-found-uploads/main/.github/social-preview.png"
+  },
+  {
     "name": "tailor alterations",
     "repo": "pixeltable-tailor-fitting-labels",
     "url": "https://github.com/pierrebrunelle/pixeltable-tailor-fitting-labels",
