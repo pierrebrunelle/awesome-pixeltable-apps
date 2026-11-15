@@ -1,5 +1,31 @@
 [
   {
+    "name": "cheese caves",
+    "repo": "pixeltable-cheese-cave-aging",
+    "url": "https://github.com/pierrebrunelle/pixeltable-cheese-cave-aging",
+    "pitch": "Scheduled Excel intake pipeline for cheese cave batches and climate loggers, with a local proxy roll-up",
+    "date": "2026-11-15",
+    "features": [
+      "toml",
+      "computed",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "data-pipeline",
+      "excel",
+      "cheese",
+      "iot-sensors",
+      "data-ingestion",
+      "cron",
+      "configuration"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-cheese-cave-aging?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-cheese-cave-aging/main/.github/social-preview.png"
+  },
+  {
     "name": "neighborhood lost-and-found",
     "repo": "pixeltable-lost-and-found-uploads",
     "url": "https://github.com/pierrebrunelle/pixeltable-lost-and-found-uploads",
