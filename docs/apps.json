@@ -1,5 +1,31 @@
 [
   {
+    "name": "satellite crop imagery",
+    "repo": "pixeltable-satellite-crop-lakehouse",
+    "url": "https://github.com/pierrebrunelle/pixeltable-satellite-crop-lakehouse",
+    "pitch": "Multimodal data pipeline that scores satellite crop tiles with computed columns and exports to Parquet, Iceberg and LanceDB",
+    "date": "2026-11-16",
+    "features": [
+      "computed",
+      "indexes",
+      "media"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "etl",
+      "lakehouse",
+      "satellite-imagery",
+      "agriculture",
+      "data-pipeline",
+      "apache-iceberg",
+      "multimodal"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-satellite-crop-lakehouse?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-satellite-crop-lakehouse/main/.github/social-preview.png"
+  },
+  {
     "name": "cheese caves",
     "repo": "pixeltable-cheese-cave-aging",
     "url": "https://github.com/pierrebrunelle/pixeltable-cheese-cave-aging",
