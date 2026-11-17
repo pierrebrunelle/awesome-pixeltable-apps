@@ -1,5 +1,32 @@
 [
   {
+    "name": "Brewery Batches",
+    "repo": "pixeltable-brewery-batch-cli",
+    "url": "https://github.com/pierrebrunelle/pixeltable-brewery-batch-cli",
+    "pitch": "A command-line tool for a brewery's fermentation log: batches and hydrometer readings as Pixeltable tables, ABV and attenuation from expression UDFs, temperature-corrected gravity readings, and the same commands against Pixeltable Cloud",
+    "date": "2026-11-17",
+    "features": [
+      "cli",
+      "computed",
+      "cloud",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "cli",
+      "brewing",
+      "fermentation",
+      "homebrew",
+      "argparse",
+      "expression-udf",
+      "udf"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-brewery-batch-cli?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-brewery-batch-cli/main/.github/social-preview.png"
+  },
+  {
     "name": "satellite crop imagery",
     "repo": "pixeltable-satellite-crop-lakehouse",
     "url": "https://github.com/pierrebrunelle/pixeltable-satellite-crop-lakehouse",
