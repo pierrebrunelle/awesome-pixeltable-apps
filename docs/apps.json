@@ -1,5 +1,33 @@
 [
   {
+    "name": "architecture-firm drawing archive",
+    "repo": "pixeltable-drawing-archive-mcp",
+    "url": "https://github.com/pierrebrunelle/pixeltable-drawing-archive-mcp",
+    "pitch": "Architecture-firm drawing archive served to agents over MCP: image sheets with thumbnails, gpt-4o-mini captions and an embedding index in Pixeltable, an MCP server exposing the searches as tools, and a question table whose LLM calls those tools via pxt.mcp_udfs",
+    "date": "2026-11-18",
+    "features": [
+      "agents",
+      "serving",
+      "computed",
+      "indexes",
+      "media"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "mcp-server",
+      "architecture",
+      "drawings",
+      "model-context-protocol",
+      "image-search",
+      "ai-agents",
+      "rest-api"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-drawing-archive-mcp?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-drawing-archive-mcp/main/.github/social-preview.png"
+  },
+  {
     "name": "Brewery Batches",
     "repo": "pixeltable-brewery-batch-cli",
     "url": "https://github.com/pierrebrunelle/pixeltable-brewery-batch-cli",
