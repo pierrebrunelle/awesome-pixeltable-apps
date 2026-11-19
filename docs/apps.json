@@ -1,5 +1,30 @@
 [
   {
+    "name": "coastal tide-gauge stations",
+    "repo": "pixeltable-tide-gauge-iterators",
+    "url": "https://github.com/pierrebrunelle/pixeltable-tide-gauge-iterators",
+    "pitch": "Split tide-gauge hydrophone clips into silence-aware chunks and water-level series into tide cycles with function-style and custom Pixeltable iterators",
+    "date": "2026-11-19",
+    "features": [
+      "computed",
+      "media"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "multimodal",
+      "tides",
+      "oceanography",
+      "hydrophone",
+      "ai",
+      "data-infrastructure",
+      "computed-columns"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-tide-gauge-iterators?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-tide-gauge-iterators/main/.github/social-preview.png"
+  },
+  {
     "name": "architecture-firm drawing archive",
     "repo": "pixeltable-drawing-archive-mcp",
     "url": "https://github.com/pierrebrunelle/pixeltable-drawing-archive-mcp",
