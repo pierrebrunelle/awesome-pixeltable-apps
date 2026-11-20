@@ -1,5 +1,30 @@
 [
   {
+    "name": "stained-glass commissions",
+    "repo": "pixeltable-stained-glass-agent",
+    "url": "https://github.com/pierrebrunelle/pixeltable-stained-glass-agent",
+    "pitch": "A stained-glass workshop agent that answers commission questions over images, stored session notes and Python tools, with every step a Pixeltable computed column",
+    "date": "2026-11-20",
+    "features": [
+      "computed",
+      "media"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "rag",
+      "ai-agents",
+      "stained-glass",
+      "llm-agents",
+      "multimodal",
+      "ai",
+      "data-infrastructure"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-stained-glass-agent?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-stained-glass-agent/main/.github/social-preview.png"
+  },
+  {
     "name": "coastal tide-gauge stations",
     "repo": "pixeltable-tide-gauge-iterators",
     "url": "https://github.com/pierrebrunelle/pixeltable-tide-gauge-iterators",
