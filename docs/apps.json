@@ -1,5 +1,30 @@
 [
   {
+    "name": "kennel boarding",
+    "repo": "pixeltable-kennel-ledger",
+    "url": "https://github.com/pierrebrunelle/pixeltable-kennel-ledger",
+    "pitch": "A kennel boarding ledger CLI where every stay is priced by computed columns, with row-count stats, version history and one-command revert",
+    "date": "2026-11-21",
+    "features": [
+      "cli",
+      "computed"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "cli",
+      "kennel",
+      "dog-boarding",
+      "cli-tool",
+      "multimodal",
+      "ai",
+      "data-infrastructure"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-kennel-ledger?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-kennel-ledger/main/.github/social-preview.png"
+  },
+  {
     "name": "stained-glass commissions",
     "repo": "pixeltable-stained-glass-agent",
     "url": "https://github.com/pierrebrunelle/pixeltable-stained-glass-agent",
