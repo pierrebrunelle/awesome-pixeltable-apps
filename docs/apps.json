@@ -1,5 +1,30 @@
 [
   {
+    "name": "parish registers",
+    "repo": "pixeltable-parish-graph",
+    "url": "https://github.com/pierrebrunelle/pixeltable-parish-graph",
+    "pitch": "Graph RAG over parish registers: an LLM extracts people and relations into typed JSON, views turn them into an edge table with an embedding index, and two @pxt.query hops answer multi-hop genealogy questions",
+    "date": "2026-11-22",
+    "features": [
+      "computed",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "rag",
+      "knowledge-graph",
+      "genealogy",
+      "entity-extraction",
+      "multimodal",
+      "ai",
+      "data-infrastructure"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-parish-graph?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-parish-graph/main/.github/social-preview.png"
+  },
+  {
     "name": "kennel boarding",
     "repo": "pixeltable-kennel-ledger",
     "url": "https://github.com/pierrebrunelle/pixeltable-kennel-ledger",
