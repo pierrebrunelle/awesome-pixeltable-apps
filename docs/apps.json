@@ -1,5 +1,31 @@
 [
   {
+    "name": "dental recalls",
+    "repo": "pixeltable-dental-recalls",
+    "url": "https://github.com/pierrebrunelle/pixeltable-dental-recalls",
+    "pitch": "A dental practice recall dashboard: JSON visit histories become recall due dates, overdue days and a call-list priority with Pixeltable's filter / map / sort / coalesce and math functions, and group_by @pxt.query reports are stored as weekly snapshots and rendered to Markdown and HTML",
+    "date": "2026-11-23",
+    "features": [
+      "cli",
+      "computed",
+      "indexes"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "analytics",
+      "dental",
+      "healthcare",
+      "recall-scheduling",
+      "observability",
+      "multimodal",
+      "ai"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-dental-recalls?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-dental-recalls/main/.github/social-preview.png"
+  },
+  {
     "name": "parish registers",
     "repo": "pixeltable-parish-graph",
     "url": "https://github.com/pierrebrunelle/pixeltable-parish-graph",
