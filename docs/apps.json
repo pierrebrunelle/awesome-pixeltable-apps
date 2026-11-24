@@ -1,5 +1,29 @@
 [
   {
+    "name": "escape-room bookings",
+    "repo": "pixeltable-escape-room-traces",
+    "url": "https://github.com/pierrebrunelle/pixeltable-escape-room-traces",
+    "pitch": "LLM observability without another SaaS: Pixeltable's OpenTelemetry spans for every insert and gpt-4o-mini call land in a table next to the outputs, and group_by queries give latency, p95 and token usage per scheduled run",
+    "date": "2026-11-24",
+    "features": [
+      "computed"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "data-pipeline",
+      "tracing",
+      "escape-room",
+      "openai",
+      "multimodal",
+      "ai",
+      "data-infrastructure"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-escape-room-traces?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-escape-room-traces/main/.github/social-preview.png"
+  },
+  {
     "name": "dental recalls",
     "repo": "pixeltable-dental-recalls",
     "url": "https://github.com/pierrebrunelle/pixeltable-dental-recalls",
