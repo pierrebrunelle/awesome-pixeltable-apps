@@ -1,5 +1,31 @@
 [
   {
+    "name": "bonsai nursery",
+    "repo": "pixeltable-bonsai-labels",
+    "url": "https://github.com/pierrebrunelle/pixeltable-bonsai-labels",
+    "pitch": "Label round-trip for a bonsai nursery: export Pixeltable tables to CSV, JSONL, Parquet, COCO and PyTorch, let graders edit the labels elsewhere, re-import with lossless type checks, and diff or revert each batch by table version",
+    "date": "2026-11-25",
+    "features": [
+      "versioning",
+      "computed",
+      "media"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "data-labeling",
+      "bonsai",
+      "parquet",
+      "data-versioning",
+      "multimodal",
+      "ai",
+      "data-infrastructure"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-bonsai-labels?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-bonsai-labels/main/.github/social-preview.png"
+  },
+  {
     "name": "escape-room bookings",
     "repo": "pixeltable-escape-room-traces",
     "url": "https://github.com/pierrebrunelle/pixeltable-escape-room-traces",
