@@ -1,5 +1,30 @@
 [
   {
+    "name": "kelp farm",
+    "repo": "pixeltable-kelp-fronds",
+    "url": "https://github.com/pierrebrunelle/pixeltable-kelp-fronds",
+    "pitch": "Kelp-farm survey clips to a labeled FiftyOne dataset: Pixeltable extracts frames, runs image ops, holds the human grades, freezes a release snapshot and exports images, classes and frond boxes to Voxel51",
+    "date": "2026-11-26",
+    "features": [
+      "computed",
+      "media"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "multimodal",
+      "kelp",
+      "aquaculture",
+      "data-labeling",
+      "ai",
+      "data-infrastructure",
+      "computed-columns"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-kelp-fronds?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-kelp-fronds/main/.github/social-preview.png"
+  },
+  {
     "name": "bonsai nursery",
     "repo": "pixeltable-bonsai-labels",
     "url": "https://github.com/pierrebrunelle/pixeltable-bonsai-labels",
