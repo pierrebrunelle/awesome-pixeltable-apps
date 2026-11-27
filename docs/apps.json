@@ -1,5 +1,31 @@
 [
   {
+    "name": "quilting guild",
+    "repo": "pixeltable-quilt-ledger",
+    "url": "https://github.com/pierrebrunelle/pixeltable-quilt-ledger",
+    "pitch": "A quilting guild's versioned pattern registry: jurors score each block on a filtered iterator view, scores survive patterns moving in and out of jury, and every change can be listed, read back, frozen or reverted",
+    "date": "2026-11-27",
+    "features": [
+      "versioning",
+      "views",
+      "computed"
+    ],
+    "topics": [
+      "pixeltable",
+      "pixeltable-example",
+      "python",
+      "data-versioning",
+      "quilting",
+      "crafts",
+      "data-pipeline",
+      "multimodal",
+      "ai",
+      "data-infrastructure"
+    ],
+    "codespaces": "https://codespaces.new/pierrebrunelle/pixeltable-quilt-ledger?quickstart=1",
+    "image": "https://raw.githubusercontent.com/pierrebrunelle/pixeltable-quilt-ledger/main/.github/social-preview.png"
+  },
+  {
     "name": "kelp farm",
     "repo": "pixeltable-kelp-fronds",
     "url": "https://github.com/pierrebrunelle/pixeltable-kelp-fronds",
